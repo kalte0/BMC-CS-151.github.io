@@ -1,0 +1,163 @@
+- 
+  lectures: 
+    - 
+      date: 2023-09-06
+      title: Lecture 1 <br> Course Introduction <br> Terminal, Compiling
+      slides: ~
+      recording: ~
+      code: "https://github.com/BMC-CS-151/class-examples-f23/tree/main/week1/"
+      readings:
+        -
+          title: "Chapter 1"
+          url: ""
+      assignments: 
+        - 
+          title: "Lab00 - Command Line, Unix, Vim"
+          url: "labs/Lab00.html"
+        - 
+          deadline: 2023-01-23
+          title: "HW00 - Hello World, Compile Errors"
+          url: "hws/HW00.html"
+    - 
+      date: 2023-09-11
+      title: Lecture 2
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-09-13
+      title: Lecture 3
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-09-18
+      title: Lecture 4
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-09-20
+      title: Lecture 5
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-09-25
+      title: CANCELLED - Yom Kippur
+      slides: ~
+      recording: ~
+      type: "'no_lecture'"
+    - 
+      date: 2023-09-27
+      title: Lecture 7
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-10-02
+      title: Lecture 8
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-10-04
+      title: Lecture 9
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-10-09
+      title: Lecture 10
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-10-11
+      title: Lecture 11
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-10-16
+      title: FALL BREAK
+      slides: ~
+      recording: ~
+      type: "'no_lecture'"
+    - 
+      date: 2023-10-18
+      title: FALL BREAK
+      slides: ~
+      recording: ~
+      type: "'no_lecture'"
+    - 
+      date: 2023-10-23
+      title: Lecture 12
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-10-25
+      title: Lecture 13
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-10-30
+      title: Lecture 14
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-11-01
+      title: Lecture 15
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-11-06
+      title: Lecture 16
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-11-08
+      title: Lecture 17
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-11-13
+      title: Lecture 18
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-11-15
+      title: Lecture 19
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-11-20
+      title: Lecture 20
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-11-22
+      title: Lecture 22
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-11-27
+      title: Lecture 23
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-11-29
+      title: Lecture 24
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-12-04
+      title: Lecture 24
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-12-06
+      title: Lecture 25
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-12-11
+      title: Lecture 26
+      slides: ~
+      recording: ~
+    - 
+      date: 2023-12-13
+      title: Lecture 27
+      slides: ~
+      recording: ~
