@@ -2,7 +2,7 @@
   lectures: 
     - 
       date: 2023-09-06
-      title: Lecture 1 <br> Course Introduction <br> Terminal, Compiling
+      title: Lecture 1 <br> Java Review
       slides: ~
       recording: ~
       code: "https://github.com/BMC-CS-151/class-examples-f23/tree/main/week1/"
@@ -20,22 +20,22 @@
           url: "hws/HW00.html"
     - 
       date: 2023-09-11
-      title: Lecture 2
+      title: Lecture 2 <br> Java Review I (I/O, Exceptions, Inheritance)
       slides: ~
       recording: ~
     - 
       date: 2023-09-13
-      title: Lecture 3
+      title: Lecture 3 <br> Generics, Nested Classes
       slides: ~
       recording: ~
     - 
       date: 2023-09-18
-      title: Lecture 4
+      title: Lecture 4 <br> ArrayList
       slides: ~
       recording: ~
     - 
       date: 2023-09-20
-      title: Lecture 5
+      title: Lecture 5 <br> LinkedList
       slides: ~
       recording: ~
     - 
@@ -46,27 +46,27 @@
       type: "'no_lecture'"
     - 
       date: 2023-09-27
-      title: Lecture 7
+      title: Lecture 7 <br> FancyLinkedList
       slides: ~
       recording: ~
     - 
       date: 2023-10-02
-      title: Lecture 8
+      title: Lecture 8 <br> Algorithm Analysis
       slides: ~
       recording: ~
     - 
       date: 2023-10-04
-      title: Lecture 9
+      title: Lecture 9 <br> Stacks
       slides: ~
       recording: ~
     - 
       date: 2023-10-09
-      title: Lecture 10
+      title: Lecture 10 <br> Queues
       slides: ~
       recording: ~
     - 
       date: 2023-10-11
-      title: Lecture 11
+      title: Lecture 11 <br> Lists \& Iterators
       slides: ~
       recording: ~
     - 
@@ -83,57 +83,57 @@
       type: "'no_lecture'"
     - 
       date: 2023-10-23
-      title: Lecture 12
+      title: Lecture 12 <br> Recursion \& Binary Search
       slides: ~
       recording: ~
     - 
       date: 2023-10-25
-      title: Lecture 13
+      title: Lecture 13 <br> Review
       slides: ~
       recording: ~
     - 
       date: 2023-10-30
-      title: Lecture 14
+      title: Lecture 14 <br> Midterm
       slides: ~
       recording: ~
     - 
       date: 2023-11-01
-      title: Lecture 15
+      title: Lecture 15 <br> Trees
       slides: ~
       recording: ~
     - 
       date: 2023-11-06
-      title: Lecture 16
+      title: Lecture 16 <br> Tree Traversals
       slides: ~
       recording: ~
     - 
       date: 2023-11-08
-      title: Lecture 17
+      title: Lecture 17 <br> Priority Queues
       slides: ~
       recording: ~
     - 
       date: 2023-11-13
-      title: Lecture 18
+      title: Lecture 18 <br> Heaps
       slides: ~
       recording: ~
     - 
       date: 2023-11-15
-      title: Lecture 19
+      title: Lecture 19 <br> Maps
       slides: ~
       recording: ~
     - 
       date: 2023-11-20
-      title: Lecture 20
+      title: Lecture 20 <br> Hash Tables
       slides: ~
       recording: ~
     - 
       date: 2023-11-22
-      title: Lecture 22
+      title: Lecture 21 <br> Merge Sort
       slides: ~
       recording: ~
     - 
       date: 2023-11-27
-      title: Lecture 23
+      title: Lecture 22 <br> Quick Sort
       slides: ~
       recording: ~
     - 
