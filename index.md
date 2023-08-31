@@ -1,5 +1,5 @@
 ---
-title: Computer Science I - CS113 - Bryn Mawr College
+title: Data Structures - Bryn Mawr College
 layout: default
 img: <!-- turk-engraving-detail -->
 img_link: <!-- http://en.wikipedia.org/wiki/The_Turk -->
@@ -8,7 +8,12 @@ active_tab: main_page
 ---
 
 
-This is an introduction to the discipline of computer science, suitable for those students with a mature quantitative ability. This fast-paced course covers the basics of computer programming, with an emphasis on program design, problem decomposition, and object-oriented programming in Java. Graduates of this course will be able to write small computer programs independently; examples include data processing for a data-based science course, small games, or estimating likelihood of probabilistic events, etc.. No computer programming experience is necessary or expected. Students are required to register for a weekly lab.
+This course is an introduction to the fundamental data structures of computer sAn introduction to the fundamental data structures of computer science: linked lists,
+stacks, queues, trees (BSTs, heaps, AVLs and other self-balancing BSTs), hash tables,
+sets (Union-Find), graphs and their accompanying algorithms. Principles of algorithmic
+analysis and object reasoning and design will be introduced using mathematical techniques
+for the notions of both complexity and correctness. More practical issues, such as memory
+management, searching, sorting and hashing, will also be covered.
 
 <!-- Display an alert about upcoming homework assignments -->
 {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
@@ -42,7 +47,7 @@ Check out the [excellent final projects](http://crowdsourcing-class.org/final-pr
 
 
 Course number
-: CMSC B113 - students from all majors are welcome!
+: CMSC B151 
 
 Instructor
 : [Adam Poliak](http://azpoliak.github.io)
@@ -51,30 +56,34 @@ Teaching Assistants
 : [Course Staff](staff.html) 
 
 Website 
-: [https://cs.brynmawr.edu/cs113/](https://cs.brynmawr.edu/cs113/)
+: [https://cs.brynmawr.edu/Courses/cs151/fall2023/](https://cs.brynmawr.edu/Courses/cs151/fall2023/)
 
 Discussion Forum
-: [Piazza](https://piazza.com/brynmawr/spring2023/cs113)
+: [Piazza](https://piazza.com/class/llz0bx8glf5a6/)
 
 Time and place
-: Spring 2023, TTH 12:55-2:15pm, Location: Park 338
-: Lab T: 2:25-3:45pm
+: Fall 2023, MW 1:10-2:30pm, Location: Park 337
+: Lab W: 2:40-4:00pm, Location: Park 231
 
 Office Hours
 : <a href="{{ site.url }}{{ site.baseurl }}/office-hours.html">Times</a>
 
 Prerequisites
-: None - no prior programming background is required
+: One of the following courses is required with a grade of 2.0 or better (or permission of
+the instructor):
+1. CS B110
+2. CS B113
+3. CS H105
 
 Course Readings
-: Each lecture has an accompanying chapter/section of the [textbook](https://cs.brynmawr.edu/cs113/textbook/cs113Textbook.pdf)
+: Each lecture has an accompanying chapter/section of the [textbook](https://www.wiley.com/en-us/Data+Structures+and+Algorithms+in+Java%2C+6th+Edition-p-9781118771334). We will be using Data Structures and Algorithms by Goodrich, Tamassia and Goldwasser as the required text. 
 : Some lectures will have accompanying optional reading related to the lecture's topic
 
 Grading
-* Homeworks: 29%
-* Labs: 7%
-* Midterms: 25%
-* Final: 34% 
+* Homeworks: 35%
+* Labs: 5%
+* Midterms: 20%
+* Final: 35% 
 * Participation: 5%
 
 

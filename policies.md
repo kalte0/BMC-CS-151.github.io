@@ -23,7 +23,7 @@ More acadmeic support, e.g. [peer mentors](https://www.brynmawr.edu/inside/offic
 
 
 ### Materials
-The main text is a free online textbook called [ThinkJava]() that has been modified for CS113.
+The main text is Data Structures and Algorithms by Goodrich, Tamassia and Goldwasser as the required text.
 
 ### Homework
 Homework assignments are a required part of the course. Homeworks will be released at the latest Tuesday evenings and will be due the following Monday evening.
