@@ -13,11 +13,14 @@
       assignments: 
         - 
           title: "Lab00 - Command Line, Unix, Vim"
-          url: "labs/Lab00.html"
+          _url: "labs/Lab00.html"
         - 
-          deadline: 2023-01-23
-          title: "HW00 - Hello World, Compile Errors"
-          url: "hws/HW00.html"
+          title: "Lab01 -  Exceptions & I/O"
+          _url: "labs/Lab00.html"
+        - 
+          deadline: 2023-09-12
+          title: "HW00 - Arrays & Classes"
+          _url: "hws/HW00.html"
     - 
       date: 2023-09-11
       title: Lecture 2 <br> Java Review I (I/O, Exceptions, Inheritance)
@@ -28,6 +31,13 @@
       title: Lecture 3 <br> Generics, Nested Classes
       slides: ~
       recording: ~
+      assignments: 
+        - 
+          title: "Lab02 -  Inheritance, ArrayList"
+          _url: "labs/Lab00.html"
+        - 
+          deadline: 2023-09-19
+          title: "HW01 - ArrayList & Inheritance"
     - 
       date: 2023-09-18
       title: Lecture 4 <br> ArrayList
@@ -38,6 +48,11 @@
       title: Lecture 5 <br> LinkedList
       slides: ~
       recording: ~
+      assignments: 
+        - 
+          deadline: 2023-10-03
+          title: "HW02 -  LinkedLists"
+          _url: "labs/Lab00.html"
     - 
       date: 2023-09-25
       title: CANCELLED - Yom Kippur
@@ -59,6 +74,11 @@
       title: Lecture 9 <br> Stacks
       slides: ~
       recording: ~
+      assignments: 
+        - 
+          deadline: 2023-10-10
+          title: "HW03 -  Stacks & Queues"
+          _url: "labs/Lab00.html"
     - 
       date: 2023-10-09
       title: Lecture 10 <br> Queues
@@ -86,6 +106,11 @@
       title: Lecture 12 <br> Recursion \& Binary Search
       slides: ~
       recording: ~
+      assignments: 
+        - 
+          deadline: 2023-11-03
+          title: "HW04 - Binary Search"
+          _url: "labs/Lab00.html"
     - 
       date: 2023-10-25
       title: Lecture 13 <br> Review
@@ -101,6 +126,11 @@
       title: Lecture 15 <br> Trees
       slides: ~
       recording: ~
+      assignments: 
+        - 
+          deadline: 2023-11-10
+          title: "HW05 - Binary Trees"
+          _url: "labs/Lab00.html"
     - 
       date: 2023-11-06
       title: Lecture 16 <br> Tree Traversals
@@ -116,6 +146,11 @@
       title: Lecture 18 <br> Heaps
       slides: ~
       recording: ~
+      assignments: 
+        - 
+          deadline: 2023-11-17
+          title: "HW06 - Heaps"
+          _url: "labs/Lab00.html"
     - 
       date: 2023-11-15
       title: Lecture 19 <br> Maps
@@ -131,6 +166,11 @@
       title: Lecture 21 <br> Merge Sort
       slides: ~
       recording: ~
+      assignments: 
+        - 
+          deadline: 2023-12-01
+          title: "HW07 - Hashtables"
+          _url: "labs/Lab00.html"
     - 
       date: 2023-11-27
       title: Lecture 22 <br> Quick Sort
@@ -141,6 +181,11 @@
       title: Lecture 24
       slides: ~
       recording: ~
+      assignments: 
+        - 
+          deadline: 2023-12-08
+          title: "HW08 - AVL Trees"
+          _url: "labs/Lab00.html"
     - 
       date: 2023-12-04
       title: Lecture 24
@@ -151,6 +196,11 @@
       title: Lecture 25
       slides: ~
       recording: ~
+      assignments: 
+        - 
+          deadline: 2023-12-14
+          title: "HW09 - Google Maps"
+          _url: "labs/Lab00.html"
     - 
       date: 2023-12-11
       title: Lecture 26
