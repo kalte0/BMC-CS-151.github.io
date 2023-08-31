@@ -20,7 +20,7 @@ The lecture schedule will be updated as the term progresses.
 
 ### Pre-course
 
-Make sure to fill out the pre-course survey that is available Piazza.
+Make sure to fill out the [pre-course survey](https://forms.gle/hE8uQFMHuX1HtgiE7).
 
 Make sure you are registered for the course [Gradescope](https://www.gradescope.com/) and [Piazza](https://piazza.com/brynmawr/spring2023/cs113).
 
