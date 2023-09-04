@@ -56,7 +56,7 @@ Teaching Assistants
 : [Course Staff](staff.html) 
 
 Website 
-: [https://cs.brynmawr.edu/Courses/cs151/fall2023/](https://cs.brynmawr.edu/Courses/cs151/fall2023/)
+: [https://bmc-cs-151.github.io/](https://bmc-cs-151.github.io/)
 
 Discussion Forum
 : [Piazza](https://piazza.com/class/llz0bx8glf5a6/)

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CS113 Policies
+title: CS151 Policies
 active_tab: Policies
 ---
 
@@ -15,7 +15,7 @@ All times listed on the course webpage are in Eastern Standard Time (EST).
 You are not alone in this course; the course staff
 are here to support you as you learn the material. It's expected that some aspects of the course will take time to master, and the best way to master challenging material is to ask questions. We will use Piazza for online questions and discussions. 
 
-The course staff will be holding regular office hours. We have listed their times on our [Office Hours page](https://cs.brynmawr.edu/cs113/website/office-hours.html).
+The course staff will be holding regular office hours. We have listed their times on our [Office Hours page](https://bmc-cs-151.github.io/office-hours.html).
 
 The [Q-Center](https://www.brynmawr.edu/inside/offices-services/q-center) is a great resource as well. You can book an appointment [online](https://brynmawr.mywconline.net/).
 
