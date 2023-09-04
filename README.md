@@ -1,7 +1,7 @@
 CS113
 =============================
 
-Introduction to Computer Science - CS113 (Bryn Mawr College Spring 2023)
+Introduction to Computer Science - CS151 (Bryn Mawr College Fall 2023)
 
 ### Running locally:
 Run `bundle exec jekyll serve`
