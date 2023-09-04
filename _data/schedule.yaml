@@ -9,7 +9,6 @@
       readings:
         -
           title: "Chapter 1"
-          url: ""
       assignments: 
         - 
           title: "Lab00 - Command Line, Unix, Vim"
@@ -23,14 +22,20 @@
           _url: "hws/HW00.html"
     - 
       date: 2023-09-11
-      title: Lecture 2 <br> Java Review I (I/O, Exceptions, Inheritance)
+      title: Lecture 2 <br> Generic, Nested Classes
       slides: ~
       recording: ~
+      readings:
+        -
+          title: "Chapter 2"
     - 
       date: 2023-09-13
-      title: Lecture 3 <br> Generics, Nested Classes
+      title: Lecture 3 <br> ArrayList
       slides: ~
       recording: ~
+      readings:
+        -
+          title: "Chapter 7.2"
       assignments: 
         - 
           title: "Lab02 -  Inheritance, ArrayList"
@@ -40,12 +45,18 @@
           title: "HW01 - ArrayList & Inheritance"
     - 
       date: 2023-09-18
-      title: Lecture 4 <br> ArrayList
+      title: Lecture 4 <br> LinkedList
+      readings:
+        -
+          title: "Chapter 3"
       slides: ~
       recording: ~
     - 
       date: 2023-09-20
-      title: Lecture 5 <br> LinkedList
+      title: Lecture 5 <br> FancyLinkedList
+      readings:
+        -
+          title: "Chapter 3"
       slides: ~
       recording: ~
       assignments: 
@@ -61,17 +72,26 @@
       type: "'no_lecture'"
     - 
       date: 2023-09-27
-      title: Lecture 7 <br> FancyLinkedList
+      title: Lecture 7 <br> Algorithm Analysis
+      readings:
+        -
+          title: "Chapter 4"
       slides: ~
       recording: ~
     - 
       date: 2023-10-02
-      title: Lecture 8 <br> Algorithm Analysis
+      title: Lecture 8 <br> Stacks
+      readings:
+        -
+          title: "Chapter 6.1"
       slides: ~
       recording: ~
     - 
       date: 2023-10-04
-      title: Lecture 9 <br> Stacks
+      title: Lecture 9 <br> Queues
+      readings:
+        -
+          title: "Chapter 6.2-6.3"
       slides: ~
       recording: ~
       assignments: 
@@ -81,12 +101,18 @@
           _url: "labs/Lab00.html"
     - 
       date: 2023-10-09
-      title: Lecture 10 <br> Queues
+      title: Lecture 10 <br> Lists & Iterators
       slides: ~
+      readings:
+        -
+          title: "Chapter 7"
       recording: ~
     - 
       date: 2023-10-11
-      title: Lecture 11 <br> Lists \& Iterators
+      title: Lecture 11 <br> Recursion & Binary Search
+      readings:
+        -
+          title: "Chapter 5"
       slides: ~
       recording: ~
     - 
@@ -103,7 +129,7 @@
       type: "'no_lecture'"
     - 
       date: 2023-10-23
-      title: Lecture 12 <br> Recursion \& Binary Search
+      title: Lecture 12 <br> Review
       slides: ~
       recording: ~
       assignments: 
@@ -113,12 +139,12 @@
           _url: "labs/Lab00.html"
     - 
       date: 2023-10-25
-      title: Lecture 13 <br> Review
+      title: Lecture 13 <br> Midterm
       slides: ~
       recording: ~
     - 
       date: 2023-10-30
-      title: Lecture 14 <br> Midterm
+      title: Lecture 14 <br> Trees
       slides: ~
       recording: ~
     - 
