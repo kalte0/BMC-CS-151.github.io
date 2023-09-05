@@ -12,7 +12,7 @@
       assignments: 
         - 
           title: "Lab00 - Command Line, Unix, Vim"
-          _url: "labs/Lab00.html"
+          url: "labs/Lab00.html"
         - 
           title: "Lab01 -  Exceptions & I/O"
           _url: "labs/Lab00.html"
