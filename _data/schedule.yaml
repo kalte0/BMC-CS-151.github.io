@@ -15,7 +15,7 @@
           url: "labs/Lab00.html"
         - 
           title: "Lab01 -  Exceptions & I/O"
-          _url: "labs/Lab00.html"
+          url: "labs/Lab00.html"
         - 
           deadline: 2023-09-12
           title: "HW00 - Arrays & Classes"
