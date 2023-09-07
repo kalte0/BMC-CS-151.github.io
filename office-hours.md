@@ -85,33 +85,8 @@ General Schedule
 <tbody>
 <tr align="center">
 <td>Adam Poliak <br> Park 200C</td>
-<td align="center">Thursday</td>
-<td>3:30-4:45</td>
-</tr>
-<tr align="center">
-<td align="center">Maha Attique</td>
-<td align="center"> Monday <br> Wednesday </td>
-<td>6-8pm <br> 8-10pm </td>
-</tr>
-<tr align="center">
-<td align="center">Amina Ahmed</td>
-<td align="center"> Tuesday<br> Thursday </td>
-<td>7:30-9:30pm <br> 7-9pm </td>
-</tr>
-<tr align="center">
-<td align="center">Selin Butun</td>
-<td align="center"> Wednesday </td>
-<td> 6-8pm </td>
-</tr>
-<tr align="center">
-<td align="center">Renata (Rey) Del Vecchio</td>
-<td align="center"> Monday<br> </td>
-<td> 8-10pm<br> 6-8pm </td>
-</tr>
-<tr align="center">
-<td align="center">Jadyn Elliott <br> Haverford Hilles 204</td>
-<td align="center"> Wednesday <br> Friday </td>
-<td>8-10pm<br> 4-6pm</td>
+<td align="center">Monday <br> Tuesday </td>
+<td>2:45-4:00pm <br> 9:30-10:45am</td>
 </tr>
 </tbody>
 </table>
