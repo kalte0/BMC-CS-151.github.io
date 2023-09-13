@@ -198,11 +198,13 @@ This will ensure that all tests actually run. We are using `assert`
 to test the `ExpandableArray`.
 
 Below we list some of the instance methods you will need to implement.
-By looking at `DriverLab02.java`, you will notice there are a few more methods
+By looking at `ExpandableArrayTests.java`, you will notice there are a few more methods
 you will probably need to implement.
 
 #### Tips:
 
+- In `ExpandableArray`, start by writing all the method stubs
+to get `ExpandableArrayTests.java` to compile.
 - Your `ExpandableArray` will have to work for an unbounded number of items.
 This requires that you keep track of how “full” the array is. 
 When nothing fits into the array anymore, you’ll have to “grow” it somehow. The best approach is to make a new array that is double the size of original array when you are out of space. If you find yourself doing this multiple times, you might want to consider using a
