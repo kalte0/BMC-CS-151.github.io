@@ -31,15 +31,15 @@
     - 
       date: 2023-09-13
       title: Lecture 3 <br> ArrayList
-      slides: ~
+      slides: "slides/lecture03.pdf"
       recording: ~
       readings:
         -
           title: "Chapter 7.2"
       assignments: 
         - 
-          title: "Lab02 -  Inheritance, ArrayList"
-          _url: "labs/Lab00.html"
+          title: "Lab02 -  Inheritance, ExpandableArray"
+          url: "labs/Lab02.html"
         - 
           deadline: 2023-09-19
           title: "HW01 - ArrayList & Inheritance"
