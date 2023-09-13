@@ -55,11 +55,13 @@ You can download the materials for this assignment here:
 The main goals for this lab are:
 
 1. Review inheritance
-1. Implement your first data structure - as self expanding array
+1. Implement your first data structure - a self expanding array
 
 You will need to have a TA check off on all your exercises.
 If you do not complete the lab during the lab session, you
 must have a TA check off all your exercises during office hours.
+
+> Notes: in this lab you are not allowed to include any `import` statements.
 
 ### Paired Programming rules
 This lab is a **paired programming assignment.** What exactly does that mean? 
@@ -68,15 +70,12 @@ You will be working in pairs on the CS lab computers. Each pair will be working 
 them to type. For this to work well, each pair should be constantly talking 
 among themselves. After each problem, you will switch roles, the navigator will become the driver and the driver will become the navigator.
 
-#### Data
-On the CS lab machines, look in `~apoliak/handouts/cs151/labs/01` for code and data files related to this lab.
-
 ## Exercise 1: Inheritance
 
 Design all the necessary classes in order to make the following driver program
 work properly (we have broken down the step below). You ***must not*** and ***can not***
 change the driver code. You must store the driver program in a file called 
-`DriverLab02.java`
+`InheritanceDriverLab02.java`
 
 
 ``` java
@@ -171,16 +170,28 @@ So, if a programmer wants to just store data in an array,
 they dont have to worry about running out of space, your data structure will do that 
 automatically.
 
+You will be using and adding more functionality to your `ExpandableArray` in Homework02.
+
 #### Testing
 
-We have provided a file called `DriverLab02.java` that you can use 
-to test your `ExpandableArray`.
+We have provided a file called 
 
-After compiling the Driver, make sure to include the `ea` flag when running
+<a href="{{ site.url }}{{ site.baseurl }}/labs/lab02/ExpandableArrayTests.java">
+`ExpandableArrayTests.java`
+</a>
+that you can use 
+to test your `ExpandableArray`.
+You can download it by running:
+
+```
+wget {{ site.url }}{{ site.baseurl }}labs/lab02/ExpandableArrayTests.java
+```
+
+After compiling the test class, make sure to include the `ea` flag when running
 the program:
 
 ```
-java -ea DriverLab02
+java -ea ExpandableArrayTests
 ```
 
 This will ensure that all tests actually run. We are using `assert`
@@ -290,6 +301,11 @@ in the index specified by the user.
 Write a `toString()` method that will print out each item
 in the `ExpandableArray`. Each item should be seperated by a command and space.
 
+## Exercise 3: Mammals again
+
+Change the data structure in exercise 1 to use your `ExpandableArray`.
+Make sure the
+program works the same.
 
 ## Wrap up
 

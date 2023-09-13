@@ -1,4 +1,4 @@
-public class DriverLab02 {
+public class ExpandableArrayTests {
 
   public static void main(String[] args) {
     ExpandableArray<Integer> fancyArray = new ExpandableArray<Integer>(2);
