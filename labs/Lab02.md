@@ -303,7 +303,8 @@ in the `ExpandableArray`. Each item should be seperated by a command and space.
 
 ## Exercise 3: Mammals again
 
-Change the data structure in exercise 1 to use your `ExpandableArray`.
+After getting `ExpandableArrayTests.java` to pass all the test,
+change the data structure in exercise 1 to use your `ExpandableArray`.
 Make sure the
 program works the same.
 
