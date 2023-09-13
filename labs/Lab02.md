@@ -184,7 +184,7 @@ to test your `ExpandableArray`.
 You can download it by running:
 
 ```
-wget {{ site.url }}{{ site.baseurl }}labs/lab02/ExpandableArrayTests.java
+wget {{ site.url }}{{ site.baseurl }}/labs/lab02/ExpandableArrayTests.java
 ```
 
 After compiling the test class, make sure to include the `ea` flag when running
