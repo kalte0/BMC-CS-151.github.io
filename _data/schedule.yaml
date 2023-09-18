@@ -50,7 +50,7 @@
       readings:
         -
           title: "Chapter 3"
-      slides: ~
+      slides: "slides/lecture04.pdf"
       recording: ~
     - 
       date: 2023-09-20
