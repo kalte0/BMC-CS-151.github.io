@@ -58,6 +58,10 @@
       readings:
         -
           title: "Chapter 3"
+      assignments: 
+        - 
+          title: "Lab03 -  LinkedLists"
+          url: "labs/Lab03.html"
       slides: ~
       recording: ~
       assignments: 
