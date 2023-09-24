@@ -1,0 +1,14 @@
+The *.txt files are the correct outputs for a selection of the male and female baby names. Look at the lines in run_tests that start with "java DriverHW02" to see how they were generated.
+
+We’re providing these as a sanity check, but also to demo the output format we’ll be grading for.
+
+To use this test program, copy the entire directory test/ in the base directory of your program (HW03/).  All the csv's should be stored in the same directory under a directory called names/.  Then type (from HW03/):
+
+cd babynamesTest
+/usr/bin/bash run_tests
+
+No errors should occur if your program files are setup correctly.  You should see "No errors in testing!" as the output.
+
+If you do not, review the sample output file in the specified case and compare it to your output. 
+
+In the case where a name does not occur in a year, you should NOT show that year in the printout
