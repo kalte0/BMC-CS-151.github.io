@@ -56,6 +56,7 @@ You can download the materials for this assignment here:
 The main goals for this lab are:
 
 1. Practice with Interfaces
+1. Implement a Custom Exception
 
 You will need to have a TA check off on all your exercises.
 If you do not complete the lab during the lab session, you
