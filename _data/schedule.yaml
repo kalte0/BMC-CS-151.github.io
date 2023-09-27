@@ -80,6 +80,10 @@
       readings:
         -
           title: "Chapter 4"
+      assignments: 
+        - 
+          title: "Lab04 - Interfaces"
+          url: "labs/Lab04.html"
       slides: ~
       recording: ~
     - 
