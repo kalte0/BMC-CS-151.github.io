@@ -65,7 +65,7 @@
           title: "Lab03 -  LinkedLists"
           url: "labs/Lab03.html"
         - 
-          deadline: 2023-10-03
+          deadline: 2023-10-06
           title: "HW02 -  LinkedLists"
           url: "labs/Lab00.html"
     - 
@@ -104,7 +104,10 @@
       recording: ~
       assignments: 
         - 
-          deadline: 2023-10-10
+          title: "Lab05 - Stacks"
+          url: "labs/Lab05.html"
+        - 
+          deadline: 2023-10-13
           title: "HW03 -  Stacks & Queues"
           _url: "labs/Lab00.html"
     - 
