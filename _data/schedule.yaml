@@ -100,7 +100,7 @@
       readings:
         -
           title: "Chapter 6.2-6.3"
-      slides: ~
+      slides: "slides/lecture08.pdf"
       recording: ~
       assignments: 
         - 
