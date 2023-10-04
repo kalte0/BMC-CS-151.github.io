@@ -72,7 +72,7 @@ among themselves. After each problem, you will switch roles, the navigator will 
 
 ## Exercise 1 - Checkstyle
 
-On Tuesdays class we introduced checkstyle. Checkstyle is an open-sourced tool that 
+<s>On Tuesdays</s> During Monday's (good catch Jude!) class we introduced checkstyle. Checkstyle is an open-sourced tool that 
 allows one to easily check whether their code complies with customizable rules.
 
 Your task is to modify `HelloWorld.java` from `lecture08` so that the checkstyle passes.
