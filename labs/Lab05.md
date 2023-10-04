@@ -81,19 +81,29 @@ Getting Started:
 1. Download the xml checkstyle from the course GitHub repository. You can find it under `res/`.
 1. Download the checkstyle-8.16 jar file (look at slide 9 from lecture 08 on where to download it from.
 1. Run 
-	```java -jar checkstyle-8.16-all.jar –c \ cs151_checks.xml HelloWorld.java```
+	```java -jar checkstyle-8.16-all.jar –c  cs151_checks.xml HelloWorld.java```
 to see the checkstyle errors.
 1. Modify `HelloWorld.java` until the above command runs without any errors.
 
 ## Exercise 2 - PostfixEvaluator.java
 
-Download `PostfixEvaluator.java` from TODO. 
+Download `PostfixEvaluator.java` from 
+<a href="{{ site.url }}{{ site.baseurl }}/labs/lab05/PostfixEvaluator.java">{{ site.url }}{{ site.baseurl }}/labs/lab05/PostfixEvaluator.java</a>
 This is an implementation of the postfix evaluator we discussed in class with the built-in Java `Stack`.
+Look through the code to understand how it work. Run `PostfixEvaluator.java` to interact with it a bit.
 
 ### Exercise 2.1 - Testing PostfixEvaluator
-Run the tests we provide in `PostFixEvaluator`.
+Run the tests we provide in `TestPostFixEvaluator`.
 
-You will need to make sure you download two jar files:
+You can download `TestPostfixEvaluator.java` from 
+<a href="{{ site.url }}{{ site.baseurl }}/labs/lab05/TestPostfixEvaluator.java">{{ site.url }}{{ site.baseurl }}/labs/lab05/TestPostfixEvaluator.java</a>
+
+**Make sure the checkstyle passes for `TestPostfixEvaluator.java`**.
+When you run the checkstyle for `TestPostfixEvaluator` you will see `7` errors. Fix all them
+and then continue.
+
+Once the test file passes the checkstyle, you will run the tests. To run the tests,
+you will need to make sure you download two jar files:
 1. junit-4.13.2.jar - https://repo1.maven.org/maven2/junit/junit/4.13.2/
 1. hamcrest-core-1.13jar - https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/
 
@@ -106,7 +116,7 @@ java -cp "./junit-4.13.2.jar:./hamcrest-core-1.3.jar:./" org.junit.runner.JUnitC
 
 Test it using TestPostfixEvaluator.java. Make sure you understand how it works.
 
-Now, add 4 more tests, they should each combine multiple operators.
+Now, add 4 more tests to `TestPostfixEvaluator`. The tests should each combine multiple operators.
 
 ### Exercise 2.2 - Modifying PostfixEvaluator
 
@@ -129,9 +139,18 @@ Output
 ( 8 * ( 9 + 10 ) )
 ```
 
+Make sure `PostFixEvaluator.java` complies with the style guide.
+
 ### Exercise 2.2 - Testing PostfixStringEvaluator
-We provide three tests in `PostfixStringEvaluator`. Now add 4 more tests,
-make them a bit complicated.
+We provide three tests in `TestPostfixStringEvaluator`. 
+
+You can download `TestPostfixStringEvaluator.java` from 
+<a href="{{ site.url }}{{ site.baseurl }}/labs/lab05/TestPostfixStringEvaluator.java">{{ site.url }}{{ site.baseurl }}/labs/lab05/TestPostfixEvaluator.java</a>
+
+Again, make sure that `TestPostfixStringEvaluator.java` passes the checkstyle.
+There will be `7` checkstyle errors in the file we are providing you.
+
+Now add 4 more tests, make them a bit complicated.
 
 ## Excercise 3 - DoubleStack
 
