@@ -96,11 +96,11 @@
       recording: ~
     - 
       date: 2023-10-04
-      title: Lecture 9 <br> Queues
+      title: Lecture 9 <br> Stacks & JUnit <br><s>Queues</s>
       readings:
         -
           title: "Chapter 6.2-6.3"
-      slides: "slides/lecture08.pdf"
+      slides: "slides/lecture09.pdf"
       recording: ~
       assignments: 
         - 
@@ -112,8 +112,8 @@
           _url: "labs/Lab00.html"
     - 
       date: 2023-10-09
-      title: Lecture 10 <br> Lists & Iterators
-      slides: ~
+      title: Lecture 10 <br> Queues <br> Lists & Iterators
+      slides: "slides/lecture10.pdf"
       readings:
         -
           title: "Chapter 7"
