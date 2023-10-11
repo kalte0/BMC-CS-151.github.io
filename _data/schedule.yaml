@@ -124,7 +124,7 @@
       readings:
         -
           title: "Chapter 5"
-      slides: ~
+      slides: "slides/lecture11.pdf"
       assignments: 
         - 
           title: "Lab06 - Iterators & ArrayList"
