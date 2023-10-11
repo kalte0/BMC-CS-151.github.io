@@ -108,7 +108,7 @@
           url: "labs/Lab05.html"
         - 
           deadline: 2023-10-13
-          title: "HW03 -  Stacks & Queues"
+          title: "<s>HW03 -  Stacks & Queues</s>"
           _url: "labs/Lab00.html"
     - 
       date: 2023-10-09
@@ -125,7 +125,15 @@
         -
           title: "Chapter 5"
       slides: ~
-      recording: ~
+      assignments: 
+        - 
+          title: "Lab06 - Iterators & ArrayList"
+          url: "labs/Lab06.html"
+          deadline: 2023-10-27
+        - 
+          deadline: 2023-10-27
+          title: "HW03 -  Stacks & Queues"
+          _url: "labs/Lab00.html"
     - 
       date: 2023-10-16
       title: FALL BREAK
