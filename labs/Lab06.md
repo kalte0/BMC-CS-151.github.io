@@ -117,6 +117,12 @@ and backwards traversals.
 `ArrayIterator` and `remove()` is very similiar. But it has additional methods as specified
 below:
 
+Add a second iterator class within the `ArrayList` class called
+`MyListIterator` that implements `MyIterator`. This iterator will be used to traverse the list
+in both forward and backward direction. next(), hasNext() methods are the same as in
+ArrayIterator and remove() is very similiar. But it has additional methods as specified
+below:
+
 ### 2.1 `boolean hasNext()`
 Returns true if this list iterator has more elements when traversing
 the list in the forward direction. (In other words, returns true if `next()` would return
