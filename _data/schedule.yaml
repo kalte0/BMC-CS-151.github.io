@@ -148,8 +148,8 @@
       type: "'no_lecture'"
     - 
       date: 2023-10-23
-      title: Lecture 12 <br> <s>Review</s>
-      slides: ~
+      title: Lecture 12 <br> Trees <s>Review</s>
+      slides: "slides/lecture12.pdf"
       recording: ~
       assignments: 
         - 
