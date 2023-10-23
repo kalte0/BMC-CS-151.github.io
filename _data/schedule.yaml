@@ -107,7 +107,7 @@
           title: "Lab05 - Stacks"
           url: "labs/Lab05.html"
         - 
-          deadline: 2023-10-13
+          deadline: <s>2023-10-13</s>
           title: "<s>HW03 -  Stacks & Queues</s>"
           _url: "labs/Lab00.html"
     - 
@@ -132,7 +132,7 @@
           deadline: 2023-10-27
         - 
           deadline: 2023-10-27
-          title: "HW03 -  Stacks & Queues"
+          title: "<s>HW03 -  Stacks & Queues</s>"
           _url: "labs/Lab00.html"
     - 
       date: 2023-10-16
@@ -153,9 +153,13 @@
       recording: ~
       assignments: 
         - 
-          deadline: 2023-11-03
-          title: "HW04 - Binary Search"
+          deadline: <s>2023-11-03</s>
+          title: "<s>HW04 - Binary Search</s>"
           _url: "labs/Lab00.html"
+        - 
+          deadline: 2023-10-30
+          title: "HW03 -  Stacks & Queues"
+          url: "hws/HW03.html"
     - 
       date: 2023-10-25
       title: Lecture 13 <br> <s>Midterm</s>
