@@ -150,6 +150,9 @@
       date: 2023-10-23
       title: Lecture 12 <br> Trees <s>Review</s>
       slides: "slides/lecture12.pdf"
+      readings:
+        -
+          title: "Chapter 8"
       recording: ~
       assignments: 
         - 
@@ -162,9 +165,18 @@
           url: "hws/HW03.html"
     - 
       date: 2023-10-25
-      title: Lecture 13 <br> <s>Midterm</s>
+      title: Lecture 13 <br> Tree Traversals <s>Midterm</s>
       slides: ~
       recording: ~
+      readings:
+        -
+          title: "Chapter 8"
+      slides: "slides/lecture13.pdf"
+      assignments: 
+        - 
+          title: "Lab07 - Binary Trees"
+          url: "labs/Lab07.html"
+          deadline: 2023-11-17
     - 
       date: 2023-10-30
       title: Lecture 14 <br> <s> Trees </s> <br> Review
