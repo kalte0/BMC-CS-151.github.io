@@ -184,7 +184,7 @@
       recording: ~
       assignments: 
         - 
-          deadline: 2023-11-08
+          deadline: 2023-11-07
           title: "HW04 - Binary Search"
           _url: "labs/Lab00.html"
     - 
@@ -194,7 +194,7 @@
       recording: ~
       assignments: 
         - 
-          deadline: 2023-11-15
+          deadline: 2023-11-14
           title: "HW05 - Binary Trees"
           _url: "labs/Lab00.html"
     - 
@@ -215,7 +215,7 @@
       recording: ~
       assignments: 
         - 
-          deadline: 2023-11-22
+          deadline: 2023-11-21
           title: "HW06 - Heaps"
           _url: "labs/Lab00.html"
     - 
@@ -235,7 +235,7 @@
       recording: ~
       assignments: 
         - 
-          deadline: 2023-12-06
+          deadline: 2023-12-05
           title: "HW07 - Hashtables"
           _url: "labs/Lab00.html"
     - 
