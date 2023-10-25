@@ -72,15 +72,13 @@ public interface Deque<E> {
 
     /**
      * Removes and returns the first element of the dequeu (null if empty).
-     * @param e the item to remove
      * @return the first element in the dequeu (or null if empty)
      */
-    E removeFirst(E e);
+    E removeFirst();
 
     /**
      * Removes and returns the last element of the dequeu (null if empty).
-     * @param e the item to remove
      * @return the last element in the dequeu (or null if empty)
      */
-    E removeLast(E e);
+    E removeLast();
 }
