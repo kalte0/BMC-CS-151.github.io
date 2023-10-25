@@ -183,6 +183,10 @@
       slides: ~
       recording: ~
       assignments: 
+        - 
+          deadline: 2023-11-08
+          title: "HW04 - Binary Search"
+          _url: "labs/Lab00.html"
     - 
       date: 2023-11-01
       title: Lecture 15 <br> <s>Trees</s> <br> Midterm
@@ -190,7 +194,7 @@
       recording: ~
       assignments: 
         - 
-          deadline: 2023-11-17
+          deadline: 2023-11-15
           title: "HW05 - Binary Trees"
           _url: "labs/Lab00.html"
     - 
@@ -211,7 +215,7 @@
       recording: ~
       assignments: 
         - 
-          deadline: 2023-12-01
+          deadline: 2023-11-22
           title: "HW06 - Heaps"
           _url: "labs/Lab00.html"
     - 
@@ -231,7 +235,7 @@
       recording: ~
       assignments: 
         - 
-          deadline: 2023-12-08
+          deadline: 2023-12-06
           title: "HW07 - Hashtables"
           _url: "labs/Lab00.html"
     - 
