@@ -199,20 +199,29 @@
           _url: "labs/Lab00.html"
     - 
       date: 2023-11-06
-      title: Lecture 16 <br> Tree Traversals
+      title: Lecture 16 <br> Comparables <br> Priority Queues
       slides: ~
       recording: ~
       assignments: 
+      readings:
+        -
+          title: "Chapter 9 - Priority Queues"
     - 
       date: 2023-11-08
-      title: Lecture 17 <br> Priority Queues
+      title: Lecture 17 <br> Heaps
       slides: ~
       recording: ~
+      readings:
+        -
+          title: "Chapter 9 - Priority Queues"
     - 
       date: 2023-11-13
-      title: Lecture 18 <br> Heaps
+      title: Lecture 18 <br> Maps
       slides: ~
       recording: ~
+      readings:
+        -
+          title: "Chapter 10 - Maps, Hash Tables, and Skip Lists"
       assignments: 
         - 
           deadline: 2023-11-21
@@ -220,7 +229,10 @@
           _url: "labs/Lab00.html"
     - 
       date: 2023-11-15
-      title: Lecture 19 <br> Maps
+      title: Lecture 19 <br> Hash Tables
+      readings:
+        -
+          title: "Chapter 10 - Maps, Hash Tables, and Skip Lists"
       slides: ~
       recording: ~
     - 
