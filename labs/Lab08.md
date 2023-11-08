@@ -68,7 +68,7 @@ among themselves. After each problem, you will switch roles, the navigator will 
 
 ## Exercise 1 - ArrayBinaryTree
 Download the `LabBinaryTree` interface from 
-<a href="{{ site.url }}{{ site.baseurl }}/labs/lab08/LabBinaryTree.java">{{ site.url }}{{ site.baseurl }}/labs/lab07/LabBinaryTree.java</a>
+<a href="{{ site.url }}{{ site.baseurl }}/labs/lab08/LabBinaryTree.java">{{ site.url }}{{ site.baseurl }}/labs/lab08/LabBinaryTree.java</a>
 
 
 Design and implement `ArrayBinaryTree` that 
@@ -119,7 +119,7 @@ Make sure to add JUnit tests that sufficiently test `getRootElement` and `remove
 
 ## Exercise 2 - ArrayHeap
 Download the `LabPriorityQueue.java` interface from 
-<a href="{{ site.url }}{{ site.baseurl }}/labs/lab08/LabPriorityQueue.java">{{ site.url }}{{ site.baseurl }}/labs/lab07/LabBinaryTree.java</a>
+<a href="{{ site.url }}{{ site.baseurl }}/labs/lab08/LabPriorityQueue.java">{{ site.url }}{{ site.baseurl }}/labs/lab08/LabBinaryTree.java</a>
 
 Implement `ArrayHeap` that extends `ArrayBinaryTree` and 
 implements `LabPriorityQueue`. Start with overriding `insert` so
