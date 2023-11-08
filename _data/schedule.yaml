@@ -209,11 +209,15 @@
     - 
       date: 2023-11-08
       title: Lecture 17 <br> Heaps
-      slides: ~
+      slides: "slides/lecture17.pdf"
       recording: ~
       readings:
         -
           title: "Chapter 9 - Priority Queues"
+      assignments: 
+        - 
+          title: "Lab08 - Array based Binary Trees & Heaps"
+          url: "labs/Lab08.html"
     - 
       date: 2023-11-13
       title: Lecture 18 <br> Maps
