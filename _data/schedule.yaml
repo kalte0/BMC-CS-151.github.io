@@ -194,9 +194,9 @@
       recording: ~
       assignments: 
         - 
-          deadline: 2023-11-14
+          deadline: 2023-11-15
           title: "HW05 - Binary Trees"
-          _url: "labs/Lab00.html"
+          url: "hws/HW04.html"
     - 
       date: 2023-11-06
       title: Lecture 16 <br> Comparables <br> Priority Queues
