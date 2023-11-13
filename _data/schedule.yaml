@@ -221,7 +221,7 @@
     - 
       date: 2023-11-13
       title: Lecture 18 <br> Maps
-      slides: ~
+      slides: "slides/lecture18.pdf"
       recording: ~
       readings:
         -
@@ -241,14 +241,20 @@
       recording: ~
     - 
       date: 2023-11-20
-      title: Lecture 20 <br> Hash Tables
+      title: Lecture 20 <br> Merge Sort
       slides: ~
+      readings:
+        -
+          title: "Chapter 12 - Sorting & Selection"
       recording: ~
     - 
       date: 2023-11-22
-      title: Lecture 21 <br> Merge Sort
+      title: Lecture 21 <br> Quick Sort
       slides: ~
       recording: ~
+      readings:
+        -
+          title: "Chapter 12 - Sorting & Selection"
       assignments: 
         - 
           deadline: 2023-12-05
