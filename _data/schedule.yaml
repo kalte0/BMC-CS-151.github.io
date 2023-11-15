@@ -234,6 +234,7 @@
     - 
       date: 2023-11-15
       title: Lecture 19 <br> Hash Tables
+      slides: "slides/lecture19.pdf"
       assignments: 
         - 
           deadline: 2023-12-05
