@@ -228,9 +228,9 @@
           title: "Chapter 10 - Maps, Hash Tables, and Skip Lists"
       assignments: 
         - 
-          deadline: 2023-11-22
+          deadline: 2023-11-31
           title: "HW06 - Heaps"
-          _url: "labs/Lab00.html"
+          url: "hws/HW06.html"
     - 
       date: 2023-11-15
       title: Lecture 19 <br> Hash Tables
