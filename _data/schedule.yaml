@@ -243,12 +243,11 @@
       readings:
         -
           title: "Chapter 10 - Maps, Hash Tables, and Skip Lists"
-      slides: ~
       recording: ~
     - 
       date: 2023-11-20
       title: Lecture 20 <br> Merge Sort
-      slides: ~
+      slides: "slides/lecture20.pdf"
       readings:
         -
           title: "Chapter 12 - Sorting & Selection"
