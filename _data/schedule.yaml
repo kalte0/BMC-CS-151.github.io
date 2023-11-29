@@ -262,7 +262,7 @@
           title: "Chapter 12 - Sorting & Selection"
       assignments: 
         - 
-          deadline: 2023-12-05
+          deadline: 2023-12-07
           title: "HW07 - Hashtables"
           _url: "labs/Lab00.html"
     - 
@@ -272,9 +272,14 @@
       recording: ~
     - 
       date: 2023-11-29
-      title: Lecture 24
-      slides: ~
+      title: Lecture 23 <br> Sorted Maps, Tree Maps, Balanced Search Trees, AVL Trees
+      slides: "slides/lecture23.pdf"
       recording: ~
+      readings:
+        -
+          title: "Chapter 10.3 - Sorted Maps"
+        -
+          title: "Chapter 11.2 - 11.3 Balanced Trees, AVL Trees"
       assignments: 
         - 
           deadline: 2023-12-14
