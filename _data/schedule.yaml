@@ -262,9 +262,9 @@
           title: "Chapter 12 - Sorting & Selection"
       assignments: 
         - 
-          deadline: 2023-12-07
+          deadline: 2023-12-08
           title: "HW07 - Hashtables"
-          _url: "labs/Lab00.html"
+          url: "hws/HW07.html"
     - 
       date: 2023-11-27
       title: Lecture 22 <br> Quick Sort
