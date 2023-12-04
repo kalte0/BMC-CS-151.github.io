@@ -287,7 +287,10 @@
           _url: "labs/Lab00.html"
     - 
       date: 2023-12-04
-      title: Lecture 24
+      title: Lecture 24 <br> "Balanced Trees"
+      readings:
+        -
+          title: "Chapter 11.2 - 11.6"
       slides: ~
       recording: ~
     - 
