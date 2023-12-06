@@ -300,6 +300,10 @@
       recording: ~
       assignments: 
         - 
+          deadline: 2023-12-14
+          title: "Lab10 - AVL Trees"
+          url: "labs/Lab10.html"
+        - 
           deadline: <s>2023-12-14</s>
           title: "<s>HW09 - Google Maps</s>"
           _url: "labs/Lab00.html"
