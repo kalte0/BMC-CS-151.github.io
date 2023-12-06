@@ -296,7 +296,13 @@
     - 
       date: 2023-12-06
       title: Lecture 25
-      slides: ~
+      slides: "slides/lecture25.pdf"
+      readings:
+        -
+          title: "Chapter 11.3 - 11.6"
+        -
+          title: "Chapter 10.4 (Skip-Lists), 10.5 (Sets)"
+      recording: ~
       recording: ~
       assignments: 
         - 
