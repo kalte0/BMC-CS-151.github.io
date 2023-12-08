@@ -284,7 +284,7 @@
         - 
           deadline: 2023-12-14
           title: "HW08 - AVL Trees"
-          _url: "labs/Lab00.html"
+          url: "hws/HW08.html"
     - 
       date: 2023-12-04
       title: Lecture 24 <br> "Balanced Trees"
