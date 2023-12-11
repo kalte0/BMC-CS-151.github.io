@@ -315,11 +315,16 @@
           _url: "labs/Lab00.html"
     - 
       date: 2023-12-11
-      title: Lecture 26
+      title: Lecture 26 <br> Sets <br> Graphs
+      readings:
+        -
+          title: "Chapter 10.5"
+        -
+          title: "Chapter 14.1 - 14.3"
       slides: ~
       recording: ~
     - 
       date: 2023-12-13
-      title: Lecture 27
+      title: Lecture 27 <br> Review
       slides: ~
       recording: ~
