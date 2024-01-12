@@ -50,7 +50,7 @@ Course number
 : CMSC B151 
 
 Instructor
-: [Adam Poliak](http://azpoliak.github.io)
+: [Elizabeth Dinella](https://www.seas.upenn.edu/~edinella/)
 
 Teaching Assistants
 : [Course Staff](staff.html) 
@@ -59,11 +59,11 @@ Website
 : [https://bmc-cs-151.github.io/](https://bmc-cs-151.github.io/)
 
 Discussion Forum
-: [Piazza](https://piazza.com/class/llz0bx8glf5a6/)
+: [Piazza](https://piazza.com/class/lr8bl2y6e4f5ql/)
 
 Time and place
-: Fall 2023, MW 1:10-2:30pm, Location: Park 337
-: Lab W: 2:40-4:00pm, Location: Park 231
+: Spring 2024, MW 1-2:30pm, Location: Park 245
+: Lab M: 2:40-4:00pm, Location: Park 231
 
 Office Hours
 : <a href="{{ site.url }}{{ site.baseurl }}/office-hours.html">Times</a>
