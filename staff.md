@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Staff - CS113 
+title: Staff - CS151 
 active_tab: staff
 ---
 

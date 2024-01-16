@@ -8,7 +8,7 @@ active_tab: main_page
 ---
 
 
-This course is an introduction to the fundamental data structures of computer sAn introduction to the fundamental data structures of computer science: linked lists,
+This course is an introduction to the fundamental data structures of computer science: linked lists,
 stacks, queues, trees (BSTs, heaps, AVLs and other self-balancing BSTs), hash tables,
 sets (Union-Find), graphs and their accompanying algorithms. Principles of algorithmic
 analysis and object reasoning and design will be introduced using mathematical techniques
