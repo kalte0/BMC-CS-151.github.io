@@ -18,12 +18,12 @@
           url: "labs/Lab01.html"
     - 
       date: 2024-01-24
-      title: Lecture 2 <br> Generic, Nested Classes
+      title: Lecture 2 <br> Inheritence <br> OOP <br> Arrays
           #slides: "slides/lecture02.pdf"
       recording: ~
       readings:
         -
-          title: "Chapter 2"
+          title: "Chapter 2, Chapter 3.1, Chapter 7.2"
 
     -
       date: 2024-01-28
@@ -34,12 +34,12 @@
           deadline: "2024-02-01"
     - 
       date: 2024-01-29
-      title: Lecture 3 <br> ArrayList
+      title: Lecture 3 <br> Generics
           #slides: "slides/lecture03.pdf"
       recording: ~
       readings:
         -
-          title: "Chapter 7.2"
+          title: "Chapter 2.5"
       assignments: 
         - 
           title: "Lab02 -  Inheritance, ExpandableArray"
