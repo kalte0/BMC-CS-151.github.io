@@ -58,6 +58,9 @@ Teaching Assistants
 Website 
 : [https://bmc-cs-151.github.io/](https://bmc-cs-151.github.io/)
 
+Code Samples From Lecture
+: [Github](https://github.com/BMC-CS-151/class-examples-s24)
+
 Discussion Forum
 : [Piazza](https://piazza.com/class/lr8bl2y6e4f5ql/)
 
