@@ -132,16 +132,18 @@ Design a `Mammal` class with the following:
 #### 1.2 Dolphin class
 
 Design a `Dolphin` class that inherits from the `Mammal` class. 
+As seen in the Driver code, it should include a constructor that takes no arguments.
 Override methods as appropriate
 
 #### 1.3 Platypus class
 
 Design a `Platypus` class that inherits from the `Mammal` class. 
-Override methods as appropriate
+As seen in the Driver code, it should include a constructor that takes no arguments.
 
 #### 1.4 Human class
 
 Design a `Human` class that inherits from the `Mammal` class. 
+As seen in the Driver code, it should include a constructor that takes no arguments.
 Override methods as appropriate
 
 #### 1.5 CSStudent class
@@ -151,6 +153,19 @@ Override methods as appropriate
 
 Before moving on in this lab, run the Driver program and make sure
 the output is correct.
+
+=======
+As seen in the Driver code, it should include a constructor that takes no arguments.
+Override methods as appropriate
+
+<details><summary><b style="color:DodgerBlue;">CLICK HERE FOR A HINT</b></summary>
+Some classes may need more than one constructor.
+</details>
+
+
+Before moving on in this lab, run the Driver program and make sure
+the output is correct.
+
 
 ## Exercise 2: ExpandableArray
 
@@ -184,7 +199,7 @@ to test your `ExpandableArray`.
 You can download it by running:
 
 ```
-wget {{ site.url }}{{ site.baseurl }}/labs/lab02/ExpandableArrayTests.java
+wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab02/ExpandableArrayTests.java ExpandableArrayTests.java
 ```
 
 After compiling the test class, make sure to include the `ea` flag when running
