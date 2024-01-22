@@ -3,7 +3,7 @@
     - 
       date: 2024-01-22
       title: Lecture 1 <br> Java Review
-          #slides: "slides/lecture01.pdf"
+      slides:  "slides/lecture01.pdf"
       recording: ~
           #code: "https://github.com/BMC-CS-151/class-examples-f23/tree/main/week1/"
       readings:
@@ -30,7 +30,7 @@
       assignments: 
         -
           title: "HW00 - Arrays & Classes"
-              ##url: "hws/HW00.html"
+          url: "hws/HW00.html"
           deadline: "2024-02-01"
     - 
       date: 2024-01-29
