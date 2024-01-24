@@ -202,29 +202,9 @@ You can download it by running:
 wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab02/ExpandableArrayTests.java ExpandableArrayTests.java
 ```
 
-After compiling the test class, make sure to include the `ea` flag when running
-the program:
-
-```
-java -ea ExpandableArrayTests
-```
-
-This will ensure that all tests actually run. We are using `assert`
-to test the `ExpandableArray`.
+The tests will not compile until you've written completed the lab.
 
 Below we list some of the instance methods you will need to implement.
-By looking at `ExpandableArrayTests.java`, you will notice there are a few more methods
-you will probably need to implement.
-
-#### Tips:
-
-- In `ExpandableArray`, start by writing all the method stubs
-to get `ExpandableArrayTests.java` to compile.
-- Your `ExpandableArray` will have to work for an unbounded number of items.
-This requires that you keep track of how “full” the array is. 
-When nothing fits into the array anymore, you’ll have to “grow” it somehow. The best approach is to make a new array that is double the size of original array when you are out of space. If you find yourself doing this multiple times, you might want to consider using a
-private helper method.
-- Do not try to change everything at once, there are too many “moving parts” to get things right that way. Instead, choose one thing to change. Remember: Baby steps, incremental development and testing!
 
 ### 2.1 Class definition
 
@@ -267,8 +247,7 @@ Now add those instance variables
 ### 2.3 Constructors
 
 Create two constructors: 
-1. When the user uses the value constructor, they can specify
-the initial capacity of our data structure. 
+1. The first should take an argument to specify the initial capacity of our data structure. We call these kinds of constructors "value constructors."
 1. In the empty constructor,
 you as the designer get to specify a default value. In order to make sure
 that the remaining methods work correctly, I would recommend you limit the default to at most 10.
@@ -276,15 +255,17 @@ that the remaining methods work correctly, I would recommend you limit the defau
 ### 2.4 Inserting
 
 We will create two `insert` methods. The first will take in an item and insert
-the item at the begining of the `ExpandableArray`.
+the item at the **begining** of the `ExpandableArray`.
 The second will take in an item and a location and insert
 the item in the specified location.
 When a user inserts an item in the array, make sure to move 
 shift elements up or down to maintain our rule of always storing an element whose list index is `i` at index `i` of the array.
 
 
-If the user specifies an index such that there would be empty spaces in the `ExpandableArray`, throw an `IndexOutOfBoundsException` error, we want to guarantee that our `ExpandableArray` is dense, meaning
-that there should be no empty slots between any data in our `ExpandableArray`.
+For the insert method which takes an index to insert at, ensure that the index is valid.
+If the user specifies an invalid index, throw an `IndexOutOfBoundsException` error.
+An index is invalid if does not correspond to an element in the array. If our underlying array is of size 20, but only 4 of them are filled, any index > 3 is invalid.
+ 
 Your error should include an informative message. 
 Similar to how the follow code 
 
@@ -311,12 +292,30 @@ Write a remove method that enables a user to specify the index and
 the `ExpandableArray` will remove the item at that index.
 Since we do not want any empty spaces in the middle of our `ExpandableArray`,
 make sure to move over every item that you need to when removing the item
-in the index specified by the user.
+in the index specified by the user. Your remove method should return the removed element.
 
 ### 2.7 toString()
 
 Write a `toString()` method that will print out each item
 in the `ExpandableArray`. Each item should be seperated by a command and space.
+
+### 2.8 set()
+Write a `set` method which takes an element and an index, and sets the value accordingly.
+
+### 2.9 size()
+Write a `size` method which returns the number of elements in the array.
+
+### Test it!
+After compiling the test class, make sure to include the `ea` flag when running
+the program:
+
+```
+java -ea ExpandableArrayTests
+```
+
+This will ensure that all tests actually run. We are using `assert`
+to test the `ExpandableArray`.
+
 
 ## Exercise 3: Mammals again
 
