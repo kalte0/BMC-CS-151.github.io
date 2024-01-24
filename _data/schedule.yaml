@@ -19,7 +19,7 @@
     - 
       date: 2024-01-24
       title: Lecture 2 <br> Inheritence <br> OOP <br> Arrays
-          #slides: "slides/lecture02.pdf"
+      slides: "slides/lecture02.pdf"
       recording: ~
       readings:
         -
@@ -43,7 +43,7 @@
       assignments: 
         - 
           title: "Lab02 -  Inheritance, ExpandableArray"
-          #url: "labs/Lab02.html"
+          url: "labs/Lab02.html"
     - 
       date: 2024-01-31
       title: Lecture 4 <br> LinkedList
