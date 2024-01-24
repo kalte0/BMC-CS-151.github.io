@@ -68,9 +68,6 @@ Time and place
 : Spring 2024, MW 1-2:30pm, Location: Park 245
 : Lab M: 2:40-4:00pm, Location: Park 231
 
-Office Hours
-: <a href="{{ site.url }}{{ site.baseurl }}/office-hours.html">Times</a>
-
 Prerequisites
 : One of the following courses is required with a grade of 2.0 or better (or permission of
 the instructor):
