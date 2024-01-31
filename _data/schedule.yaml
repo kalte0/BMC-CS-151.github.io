@@ -50,7 +50,7 @@
       readings:
         -
           title: "Chapter 3"
-          slides: "slides/lecture04.pdf"
+      slides: "slides/lecture04.pdf"
       recording: ~
 
     -
