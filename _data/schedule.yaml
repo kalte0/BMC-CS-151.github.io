@@ -67,7 +67,7 @@
       readings:
         -
           title: "Chapter 3"
-      slides: ~
+      slides: "slides/lecture05.pdf"
       recording: ~
       assignments: 
         - 
