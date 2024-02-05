@@ -297,7 +297,7 @@ in the index specified by the user. Your remove method should return the removed
 ### 2.7 toString()
 
 Write a `toString()` method that will print out each item
-in the `ExpandableArray`. Each item should be seperated by a command and space.
+in the `ExpandableArray`. Each item should be seperated by a comma and space.
 
 ### 2.8 set()
 Write a `set` method which takes an element and an index, and sets the value accordingly.
