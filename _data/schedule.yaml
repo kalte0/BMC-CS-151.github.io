@@ -58,7 +58,7 @@
       assignments: 
         -
           title: "HW01 - ArrayList & Inheritance"
-          #url: "hws/HW01.html"
+          url: "hws/HW01.html"
           deadline: "2024-02-08"
 
     - 
@@ -67,12 +67,12 @@
       readings:
         -
           title: "Chapter 3"
-      slides: ~
+      slides: "slides/lecture05.pdf"
       recording: ~
       assignments: 
         - 
           title: "Lab03 -  LinkedLists"
-          #url: "labs/Lab03.html"
+          url: "labs/Lab03.html"
         
     - 
       date: 2024-02-07
@@ -88,7 +88,7 @@
        - 
           deadline: 2024-02-15
           title: "HW02 -  LinkedLists"
-              #url: "labs/Lab00.html"
+              #url: "hws/HW02.html"
     -
       date: 2024-02-12
       title: Lecture 7 <br> Stacks
@@ -99,7 +99,7 @@
       assignments: 
         - 
           title: "Lab04 - Interfaces"
-          #url: "labs/Lab04.html"
+              #url: "labs/Lab04.html"
           #slides: "slides/lecture07.pdf"
       recording: ~
     - 
