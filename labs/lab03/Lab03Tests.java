@@ -151,21 +151,21 @@ public class Lab03Tests {
     assert list.toString().equals("Ardmore (0 pop), Merion (0 pop), Wayne (0 pop)");
 
     list = new CityDLL();
-    list.insertSortedPop(new City("Dallas", 9);
-    list.insertSortedPop(new City("Miami", 3);
-    list.insertSortedPop(new City("New York", 7);
+    list.insertSortedPop(new City("Dallas", 9));
+    list.insertSortedPop(new City("Miami", 3));
+    list.insertSortedPop(new City("New York", 7));
     assert list.toString().equals("Miami (3 pop), New York (7 pop), Dallas (9 pop)");
 
     list = new CityDLL();
-    list.insertSortedPop(new City("Miami", 3);
-    list.insertSortedPop(new City("New York", 7);
-    list.insertSortedPop(new City("Dallas", 9);
+    list.insertSortedPop(new City("Miami", 3));
+    list.insertSortedPop(new City("New York", 7));
+    list.insertSortedPop(new City("Dallas", 9));
     assert list.toString().equals("Miami (3 pop), New York (7 pop), Dallas (9 pop)");
 
     list = new CityDLL();
-    list.insertSortedPop(new City("Dallas", 9);
-    list.insertSortedPop(new City("New York", 7);
-    list.insertSortedPop(new City("Miami", 3);
+    list.insertSortedPop(new City("Dallas", 9));
+    list.insertSortedPop(new City("New York", 7));
+    list.insertSortedPop(new City("Miami", 3));
     assert list.toString().equals("Miami (3 pop), New York (7 pop), Dallas (9 pop)");
   }
 
