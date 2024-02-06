@@ -68,7 +68,7 @@ You must get this lab checked off by the due date for HW04.
 During today's class we introduced checkstyle. Checkstyle is an open-sourced tool that 
 allows one to easily check whether their code complies with customizable rules.
 
-Your task is to modify `HelloWorld.java` from `lecture08` so that the checkstyle passes.
+Your task is to modify `HelloWorld.java` from `lecture07` so that the checkstyle passes.
 
 Getting Started:
 1. Download the xml checkstyle from the course GitHub repository: ```wget https://raw.githubusercontent.com/BMC-CS-151/class-examples-f23/main/cs151_checks.xml```
