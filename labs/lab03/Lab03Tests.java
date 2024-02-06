@@ -173,7 +173,6 @@ public class Lab03Tests {
   public static void main(String[] args) {
     testCity();
     System.out.println("City tests passes!");
-    System.out.println();
 
     testEmptyCitySLL();
     System.out.println("Empty CitySLL tests passes!");
