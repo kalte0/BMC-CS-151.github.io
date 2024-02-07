@@ -147,7 +147,7 @@ Now add 4 more tests, make them a bit complicated.
 
 ## Excercise 3 - DoubleStack
 
-Now we are going to imlement 2 stacks using 1 array.
+Now we are going to implement 2 stacks using 1 array.
 
 Imlement a `DoubleStack` class using a single underlying array 
 that stores two different stacks (stack 1 and stack 2).
