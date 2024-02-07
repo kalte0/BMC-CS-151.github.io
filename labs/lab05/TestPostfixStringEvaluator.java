@@ -21,7 +21,7 @@ public class TestPostfixStringEvaluator {
     public void testThreeOperandsInARow() throws PostfixStringEvaluator.SyntaxErrorException {
         PostfixStringEvaluator evaluator = new PostfixStringEvaluator();
         String line = "8 9 10 + *";
-        assertEquals("( 8 * ( 9 + 10 ) )", evaluator.eval(line));
+        assertEquals("( ( 9 + 10 ) * 8 )", evaluator.eval(line));
     }
 
     // TODO: add 4 more tests here. They should combine multiple operators
