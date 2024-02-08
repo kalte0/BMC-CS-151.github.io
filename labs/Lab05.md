@@ -134,7 +134,7 @@ Output
 
 Make sure `PostFixEvaluator.java` complies with the style guide.
 
-### Exercise 2.2 - Testing PostfixStringEvaluator
+### Exercise 2.3 - Testing PostfixStringEvaluator
 We provide three tests in `TestPostfixStringEvaluator`. 
 
 You can download `TestPostfixStringEvaluator.java` from 
