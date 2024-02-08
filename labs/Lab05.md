@@ -81,7 +81,7 @@ to see the checkstyle errors.
 ## Exercise 2 - PostfixEvaluator.java
 
 Download `PostfixEvaluator.java` from 
-<a href="{{ site.url }}{{ site.baseurl }}/labs/lab05/PostfixEvaluator.java">{{ site.url }}{{ site.baseurl }}/labs/lab05/PostfixEvaluator.java</a>
+`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab05/TestPostfixEvaluator.java`
 This is an implementation of the postfix evaluator we discussed in class with the built-in Java `Stack`.
 Look through the code to understand how it work. Run `PostfixEvaluator.java` to interact with it a bit.
 
@@ -89,7 +89,7 @@ Look through the code to understand how it work. Run `PostfixEvaluator.java` to 
 Run the tests we provide in `TestPostFixEvaluator`.
 
 You can download `TestPostfixEvaluator.java` from 
-<a href="{{ site.url }}{{ site.baseurl }}/labs/lab05/TestPostfixEvaluator.java">{{ site.url }}{{ site.baseurl }}/labs/lab05/TestPostfixEvaluator.java</a>
+`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab05/TestPostfixStringEvaluator.java`
 
 **Make sure the checkstyle passes for `TestPostfixEvaluator.java`**.
 When you run the checkstyle for `TestPostfixEvaluator` you will see `7` errors. Fix all them
