@@ -175,7 +175,7 @@ If the runtime of any of the methods besides for `printStack` is not
 Before implementing the tests, make sure to create a test fille called `TestDoubleStack.java`
 that uses JUnit tests.
 
-#### 3.1 push(int stackId, E e): 
+#### 3.1 void push(int stackId, E e): 
 push e onto stack stackId (1 or 2). In other words, it
 will push onto stack 1 if stackId==1 and onto stack 2 if stackId==2. Throw an
 `IllegalStateException` if stack is full. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
