@@ -85,8 +85,8 @@ General Schedule
 <tbody>
 <tr align="center">
 <td>Elizabeth Dinella<br> Park 205</td>
-<td align="center">Tuesday <br> Friday </td>
-<td>2:l5-3:15pm <br> 10:00-11:00am (Zoom)</td>
+<td align="center">Friday </td>
+<td> 10:00-11:00am (Zoom)</td>
 </tr>
 </tbody>
 </table>
