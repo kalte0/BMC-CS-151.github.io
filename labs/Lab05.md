@@ -193,7 +193,7 @@ return size of stack stackId. Throw an `IllegalArgumentException` if the stackId
 #### 3.5  boolean isEmpty(int stackId) 
 Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
-#### 3.6  printStack(int stackId)
+#### 3.6  void printStack(int stackId)
 Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
 ## Wrap up
