@@ -68,15 +68,15 @@ You must get this lab checked off by the due date for HW04.
 During today's class we introduced checkstyle. Checkstyle is an open-sourced tool that 
 allows one to easily check whether their code complies with customizable rules.
 
-Your task is to modify `HelloWorld.java` from `lecture07` so that the checkstyle passes.
+Your task is to modify `LookupZip.java` from `lecture07` so that the checkstyle passes.
 
 Getting Started:
 1. Download the xml checkstyle from the course GitHub repository: ```wget https://raw.githubusercontent.com/BMC-CS-151/class-examples-f23/main/cs151_checks.xml```
 2. Download the checkstyle-8.16 jar file from here: https://github.com/checkstyle/checkstyle/releases/tag/checkstyle-8.16 
 3. Run 
-	```java -jar checkstyle-8.16-all.jar –c  cs151_checks.xml HelloWorld.java```
+	```java -jar checkstyle-8.16-all.jar –c  cs151_checks.xml LookupZip.java```
 to see the checkstyle errors.
-4. Modify `HelloWorld.java` until the above command runs without any errors.
+4. Modify `LookupZip.java` until the above command runs without any errors.
 
 ## Exercise 2 - PostfixEvaluator.java
 
