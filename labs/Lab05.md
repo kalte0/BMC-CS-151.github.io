@@ -163,7 +163,7 @@ stack 2, respectively. Thus, the `DoubleStack` class should have three instance 
 1. int top2
 
 Make sure `theArray` locations 0 to top1 contain elements in stack 1 and theArray locations
-theArray.length-1 downto top2 stores the elements in stack 2.
+theArray.length-1 downto top2 stores the elements in stack 2. You can assume a max stack size of 100 for each stack.
 
 ### Methods to implement
 
