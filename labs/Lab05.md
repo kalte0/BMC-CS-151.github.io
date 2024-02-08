@@ -153,7 +153,7 @@ Imlement a `DoubleStack` class using a single underlying array
 that stores two different stacks (stack 1 and stack 2).
 One of the stacks grows upwards
 from index 0 upward, and the other stacks grows from the end of the array down. So these two stacks
-grow towards each other. 
+grow towards each other. Unlike `ExpandableArray` you can have empty spaces in your data structure.
 
 The top indexes are denoted by `top1` and `top2` for stack 1 and
 stack 2, respectively. Thus, the `DoubleStack` class should have three instance variables: 
