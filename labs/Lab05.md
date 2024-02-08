@@ -132,7 +132,7 @@ Output
 ( 8 * ( 9 + 10 ) )
 ```
 
-Make sure `PostFixEvaluator.java` complies with the style guide.
+Make sure `PostFixStringEvaluator.java` complies with the style guide.
 
 ### Exercise 2.3 - Testing PostfixStringEvaluator
 We provide three tests in `TestPostfixStringEvaluator`. 
