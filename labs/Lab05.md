@@ -97,8 +97,8 @@ and then continue.
 
 Once the test file passes the checkstyle, you will run the tests. To run the tests,
 you will need to make sure you download two jar files:
-1. junit-4.13.2.jar - https://repo1.maven.org/maven2/junit/junit/4.13.2/
-1. hamcrest-core-1.13jar - https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/
+1. junit-4.13.2.jar - `wget https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar`
+1. hamcrest-core-1.13.jar - `wget https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar`
 
 To compile and run the tests, run the following command:
 
