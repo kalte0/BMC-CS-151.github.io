@@ -49,6 +49,7 @@ public interface Stack<E> {
     /**
      * Inserts an element at the top of the stack.
      * @param e     the element to be inserted
+     * @throws IllegalStateException if queue is full
      */
     void push(E e);
 

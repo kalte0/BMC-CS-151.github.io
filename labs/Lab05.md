@@ -68,20 +68,20 @@ You must get this lab checked off by the due date for HW04.
 During today's class we introduced checkstyle. Checkstyle is an open-sourced tool that 
 allows one to easily check whether their code complies with customizable rules.
 
-Your task is to modify `HelloWorld.java` from `lecture07` so that the checkstyle passes.
+Your task is to modify `LookupZip.java` from `lecture07` so that the checkstyle passes.
 
 Getting Started:
 1. Download the xml checkstyle from the course GitHub repository: ```wget https://raw.githubusercontent.com/BMC-CS-151/class-examples-f23/main/cs151_checks.xml```
 2. Download the checkstyle-8.16 jar file from here: https://github.com/checkstyle/checkstyle/releases/tag/checkstyle-8.16 
 3. Run 
-	```java -jar checkstyle-8.16-all.jar –c  cs151_checks.xml HelloWorld.java```
+	```java -jar checkstyle-8.16-all.jar –c  cs151_checks.xml LookupZip.java```
 to see the checkstyle errors.
-4. Modify `HelloWorld.java` until the above command runs without any errors.
+4. Modify `LookupZip.java` until the above command runs without any errors.
 
 ## Exercise 2 - PostfixEvaluator.java
 
 Download `PostfixEvaluator.java` from 
-<a href="{{ site.url }}{{ site.baseurl }}/labs/lab05/PostfixEvaluator.java">{{ site.url }}{{ site.baseurl }}/labs/lab05/PostfixEvaluator.java</a>
+`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab05/PostfixEvaluator.java`
 This is an implementation of the postfix evaluator we discussed in class with the built-in Java `Stack`.
 Look through the code to understand how it work. Run `PostfixEvaluator.java` to interact with it a bit.
 
@@ -89,7 +89,7 @@ Look through the code to understand how it work. Run `PostfixEvaluator.java` to 
 Run the tests we provide in `TestPostFixEvaluator`.
 
 You can download `TestPostfixEvaluator.java` from 
-<a href="{{ site.url }}{{ site.baseurl }}/labs/lab05/TestPostfixEvaluator.java">{{ site.url }}{{ site.baseurl }}/labs/lab05/TestPostfixEvaluator.java</a>
+`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab05/TestPostfixEvaluator.java`
 
 **Make sure the checkstyle passes for `TestPostfixEvaluator.java`**.
 When you run the checkstyle for `TestPostfixEvaluator` you will see `7` errors. Fix all them
@@ -97,13 +97,13 @@ and then continue.
 
 Once the test file passes the checkstyle, you will run the tests. To run the tests,
 you will need to make sure you download two jar files:
-1. junit-4.13.2.jar - https://repo1.maven.org/maven2/junit/junit/4.13.2/
-1. hamcrest-core-1.13jar - https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/
+1. junit-4.13.2.jar - `wget https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar`
+1. hamcrest-core-1.13.jar - `wget https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar`
 
 To compile and run the tests, run the following command:
 
 ```bash
-javac -cp junit-4.13.2.jar  *.java
+javac -cp junit-4.13.2.jar  TestPostfixEvaluator.java
 java -cp "./junit-4.13.2.jar:./hamcrest-core-1.3.jar:./" org.junit.runner.JUnitCore TestPostfixEvaluator
 ```
 
@@ -132,13 +132,13 @@ Output
 ( 8 * ( 9 + 10 ) )
 ```
 
-Make sure `PostFixEvaluator.java` complies with the style guide.
+Make sure `PostFixStringEvaluator.java` complies with the style guide.
 
-### Exercise 2.2 - Testing PostfixStringEvaluator
+### Exercise 2.3 - Testing PostfixStringEvaluator
 We provide three tests in `TestPostfixStringEvaluator`. 
 
 You can download `TestPostfixStringEvaluator.java` from 
-<a href="{{ site.url }}{{ site.baseurl }}/labs/lab05/TestPostfixStringEvaluator.java">{{ site.url }}{{ site.baseurl }}/labs/lab05/TestPostfixEvaluator.java</a>
+`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab05/TestPostfixStringEvaluator.java`
 
 Again, make sure that `TestPostfixStringEvaluator.java` passes the checkstyle.
 There will be `7` checkstyle errors in the file we are providing you.
@@ -147,13 +147,13 @@ Now add 4 more tests, make them a bit complicated.
 
 ## Excercise 3 - DoubleStack
 
-Now we are going to imlement 2 stacks using 1 array.
+Now we are going to implement 2 stacks using 1 array.
 
 Imlement a `DoubleStack` class using a single underlying array 
 that stores two different stacks (stack 1 and stack 2).
 One of the stacks grows upwards
 from index 0 upward, and the other stacks grows from the end of the array down. So these two stacks
-grow towards each other. 
+grow towards each other. Unlike `ExpandableArray` you can have empty spaces in your data structure.
 
 The top indexes are denoted by `top1` and `top2` for stack 1 and
 stack 2, respectively. Thus, the `DoubleStack` class should have three instance variables: 
@@ -163,7 +163,7 @@ stack 2, respectively. Thus, the `DoubleStack` class should have three instance 
 1. int top2
 
 Make sure `theArray` locations 0 to top1 contain elements in stack 1 and theArray locations
-theArray.length-1 downto top2 stores the elements in stack 2.
+theArray.length-1 downto top2 stores the elements in stack 2. You can assume a max stack size of 100 for each stack.
 
 ### Methods to implement
 
@@ -175,24 +175,26 @@ If the runtime of any of the methods besides for `printStack` is not
 Before implementing the tests, make sure to create a test fille called `TestDoubleStack.java`
 that uses JUnit tests.
 
-#### 3.1 push(int stackId, E e): 
+#### 3.1 void push(int stackId, E e): 
 push e onto stack stackId (1 or 2). In other words, it
 will push onto stack 1 if stackId==1 and onto stack 2 if stackId==2. Throw an
-`IllegalStateException` if stack is full.
+`IllegalStateException` if stack is full. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
 #### 3.2 E pop(int stackId): 
-pop from stackId, return null if empty.
+pop from stackId, return null if empty. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
 #### 3.3 E top(int stackId): 
-top element from stackId, return null if empty.
+top element from stackId, return null if empty. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
 
 #### 3.4  int size(int stackId): 
-return size of stack stackId
+return size of stack stackId. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
-#### 3.5  boolean isEmpty(int stackId)
+#### 3.5  boolean isEmpty(int stackId) 
+Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
-#### 3.6  printStack(int stackId)
+#### 3.6  String printStack(int stackId)
+Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
 ## Wrap up
 
