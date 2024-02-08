@@ -103,7 +103,7 @@ you will need to make sure you download two jar files:
 To compile and run the tests, run the following command:
 
 ```bash
-javac -cp junit-4.13.2.jar  *.java
+javac -cp junit-4.13.2.jar  TestPostfixEvaluator.java
 java -cp "./junit-4.13.2.jar:./hamcrest-core-1.3.jar:./" org.junit.runner.JUnitCore TestPostfixEvaluator
 ```
 
