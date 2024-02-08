@@ -181,18 +181,20 @@ will push onto stack 1 if stackId==1 and onto stack 2 if stackId==2. Throw an
 `IllegalStateException` if stack is full. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
 #### 3.2 E pop(int stackId): 
-pop from stackId, return null if empty.
+pop from stackId, return null if empty. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
 #### 3.3 E top(int stackId): 
-top element from stackId, return null if empty.
+top element from stackId, return null if empty. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
 
 #### 3.4  int size(int stackId): 
-return size of stack stackId
+return size of stack stackId. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
-#### 3.5  boolean isEmpty(int stackId)
+#### 3.5  boolean isEmpty(int stackId) 
+Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
 #### 3.6  printStack(int stackId)
+Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
 ## Wrap up
 
