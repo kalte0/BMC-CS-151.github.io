@@ -99,8 +99,8 @@
       assignments: 
         - 
           title: "Lab04 - Interfaces"
-              #url: "labs/Lab04.html"
-          #slides: "slides/lecture07.pdf"
+          url: "labs/Lab04.html"
+          slides: "slides/lecture07.pdf"
       recording: ~
     - 
       date: 2024-02-14
