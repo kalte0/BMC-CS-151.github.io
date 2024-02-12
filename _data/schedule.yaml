@@ -92,7 +92,7 @@
     -
       date: 2024-02-12
       title: Lecture 7 <br> Stacks
-      readings:
+      slides: "slides/lecture07.pdf"
       readings:
         -
           title: "Chapter 6.1"
@@ -100,7 +100,6 @@
         - 
           title: "Lab04 - Interfaces"
           url: "labs/Lab04.html"
-          slides: "slides/lecture07.pdf"
       recording: ~
     - 
       date: 2024-02-14
