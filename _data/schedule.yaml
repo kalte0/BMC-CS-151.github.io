@@ -104,10 +104,10 @@
     - 
       date: 2024-02-14
       title: Lecture 8 <br> Stacks & Junit
+      slides: "slides/lecture08.pdf"
       readings:
         -
           title: "Chapter 6.2-6.3"
-              #slides: "slides/lecture08.pdf"
       recording: ~
     - 
       date: 2024-02-18
