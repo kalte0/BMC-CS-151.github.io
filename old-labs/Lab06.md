@@ -69,6 +69,8 @@ among themselves. After each problem, you will switch roles, the navigator will 
 ## Exercise 1 - Iterator
 
 Download List.java and ArrayList.java from:
+`wget 
+
 <a href="{{ site.url }}{{ site.baseurl }}/labs/lab06/List.java">{{ site.url }}{{ site.baseurl }}/labs/lab06/List.java</a>
 and
 <a href="{{ site.url }}{{ site.baseurl }}/labs/lab06/ArrayList.java">{{ site.url }}{{ site.baseurl }}/labs/lab06/ArrayList.java</a>.
