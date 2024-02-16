@@ -69,9 +69,9 @@ among themselves. After each problem, you will switch roles, the navigator will 
 ## Exercise 1 - Iterator
 
 Download List.java and ArrayList.java from:
-<a href="{{ site.url }}{{ site.baseurl }}/labs/lab06/List.java">{{ site.url }}{{ site.baseurl }}/labs/lab06/List.java</a>
-and
-<a href="{{ site.url }}{{ site.baseurl }}/labs/lab06/ArrayList.java">{{ site.url }}{{ site.baseurl }}/labs/lab06/ArrayList.java</a>.
+`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab06/ArrayList.java`
+`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab06/List.java`
+
 
 As we covered briefly in class, the inner class `ArrayIterator` lets us create iterators 
 over elements of the `ArrayList`.
@@ -108,7 +108,7 @@ should use`Assert.assertThrows`:
 
 ## Exercise 2 - MyIterator
 Download MyIterator.java from:
-<a href="{{ site.url }}{{ site.baseurl }}/labs/lab06/MyIterator.java">{{ site.url }}{{ site.baseurl }}/labs/lab06/MyIterator.java</a>.
+`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab06/MyIterator.java`
 
 The `ArrayIterator` only traverses the iterator from the front to back.
 `MyIterator` is a fancy `Iterator` interface that enables forwards
