@@ -88,6 +88,8 @@ Run checkstyle on these 2 java files. `List.java` should pass successfully but
 > about the difference between primitives and objects.
 > These errors are easy (and should be quick) to fix.
 
+If you don't remember how to run checkstyle, refer to your previous lab. 
+
 ### Task 1.2 - Testing `iterator()`
 
 In a new file called `TestIterator.java`, write JUnit tests
