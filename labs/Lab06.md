@@ -200,7 +200,7 @@ checkstyle, unit testing, and implementing an interface.
 
 ### Signing out
 You do not need to be signed out by a TA for this lab. You will be submitting
-your code on Gradescope.
+your code on Gradescope as part of HW04.
 
 Files to submit include:
 - `ArrayList.java`
