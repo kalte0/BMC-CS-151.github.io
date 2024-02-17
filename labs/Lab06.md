@@ -116,8 +116,8 @@ The `ArrayIterator` only traverses the iterator from the front to back.
 `MyIterator` is a fancy `Iterator` interface that enables forwards
 and backwards traversals.
 `next()`, `hasNext()` methods are the same as in
-`ArrayIterator` and `remove()` is very similiar. But it has additional methods as specified
-below:
+`ArrayIterator` and `remove()` is very similiar. But it has additional methods specified
+in the following sections. 
 
 Add a second iterator class within the `ArrayList` class called
 `MyListIterator` that implements `MyIterator`. This iterator will be used to traverse the list
