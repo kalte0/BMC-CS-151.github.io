@@ -168,8 +168,8 @@ next or previous.
 ### 3.1 
 Add in your `ArrayList` class two methods `myListIterator()` and `myListIterator(int i)`
 that will make an instance of `MyListIterator` and position it at the beginning of the list,
-and position it right before the i-th index, respectively. These methods are similar to the
-`iterator()` method. Note that indices start with 0.
+and position it right before the i-th index, respectively. These methods should return `Iterator<E>`. These methods are similar to the
+`iterator()` method. Note that indices start with 0. 
 
 ### 3.2 Testing `MyListIterator`
 In a new file called `TestMyListIterator.java`, write JUnit tests
