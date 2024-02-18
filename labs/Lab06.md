@@ -197,8 +197,6 @@ In a new file called `TestRemovePositions`, create at least 10 unit tests
 that demonstrate that `removePositions` work currently. Make sure to include
 edge cases in your tests.
 
-The JUnit assertion for comparing arrays may be useful to you: 
-https://junit.org/junit4/javadoc/4.12/org/junit/Assert.html#assertArrayEquals(int[],%20int[])
 
 # Summary
 
