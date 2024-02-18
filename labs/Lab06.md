@@ -69,11 +69,9 @@ among themselves. After each problem, you will switch roles, the navigator will 
 ## Exercise 1 - Iterator
 
 Download List.java and ArrayList.java from:
-`wget 
+`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab06/ArrayList.java`
+`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab06/List.java`
 
-<a href="{{ site.url }}{{ site.baseurl }}/labs/lab06/List.java">{{ site.url }}{{ site.baseurl }}/labs/lab06/List.java</a>
-and
-<a href="{{ site.url }}{{ site.baseurl }}/labs/lab06/ArrayList.java">{{ site.url }}{{ site.baseurl }}/labs/lab06/ArrayList.java</a>.
 
 As we covered briefly in class, the inner class `ArrayIterator` lets us create iterators 
 over elements of the `ArrayList`.
@@ -89,6 +87,8 @@ Run checkstyle on these 2 java files. `List.java` should pass successfully but
 > clean and unclean code. 3 of these errors also remind you
 > about the difference between primitives and objects.
 > These errors are easy (and should be quick) to fix.
+
+If you don't remember how to run checkstyle, refer to your previous lab. 
 
 ### Task 1.2 - Testing `iterator()`
 
@@ -110,14 +110,14 @@ should use`Assert.assertThrows`:
 
 ## Exercise 2 - MyIterator
 Download MyIterator.java from:
-<a href="{{ site.url }}{{ site.baseurl }}/labs/lab06/MyIterator.java">{{ site.url }}{{ site.baseurl }}/labs/lab06/MyIterator.java</a>.
+`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab06/MyIterator.java`
 
 The `ArrayIterator` only traverses the iterator from the front to back.
 `MyIterator` is a fancy `Iterator` interface that enables forwards
 and backwards traversals.
 `next()`, `hasNext()` methods are the same as in
-`ArrayIterator` and `remove()` is very similiar. But it has additional methods as specified
-below:
+`ArrayIterator` and `remove()` is very similiar. But it has additional methods specified
+in the following sections. 
 
 Add a second iterator class within the `ArrayList` class called
 `MyListIterator` that implements `MyIterator`. This iterator will be used to traverse the list
@@ -168,8 +168,8 @@ next or previous.
 ### 3.1 
 Add in your `ArrayList` class two methods `myListIterator()` and `myListIterator(int i)`
 that will make an instance of `MyListIterator` and position it at the beginning of the list,
-and position it right before the i-th index, respectively. These methods are similar to the
-`iterator()` method. Note that indices start with 0.
+and position it right before the i-th index, respectively. These methods should return `MyListIterator`. These methods are similar to the
+`iterator()` method. Note that indices start with 0. 
 
 ### 3.2 Testing `MyListIterator`
 In a new file called `TestMyListIterator.java`, write JUnit tests
@@ -200,7 +200,7 @@ checkstyle, unit testing, and implementing an interface.
 
 ### Signing out
 You do not need to be signed out by a TA for this lab. You will be submitting
-your code on Gradescope.
+your code on Gradescope as part of HW04.
 
 Files to submit include:
 - `ArrayList.java`
