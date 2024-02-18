@@ -179,7 +179,7 @@ that test the methods in `MyListIterator`.
 In `ArrayList`, implement a `static` method
 called `removePositions` that takes in two `ArrayList`s, `L` and `P`, ArrayList
 and removes the elements in `L` that are in
-positions specified by `P`. 
+positions specified by `P`. Your method should have return type `void`
 
 Positions start with `0`. For instance, if `L` contains `[3, 10, 8, 5, 12, 67, 25, 22]`
 and `P` contains `[1, 3, 4, 6]`, the elements at index 1, 3, 4 and 6 in `L` should be removed, resulting
