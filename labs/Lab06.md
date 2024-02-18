@@ -182,7 +182,7 @@ and removes the elements in `L` that are in
 positions specified by `P`.
 
 Your method signature should be as follows:
-`public static void removePositions(ArrayList<E> L, ArrayList<Integer> P)`
+`public static <E> void removePositions(ArrayList<E> L, ArrayList<Integer> P)`
 
 
 Positions start with `0`. For instance, if `L` contains `[3, 10, 8, 5, 12, 67, 25, 22]`
