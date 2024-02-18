@@ -115,6 +115,7 @@
         -
           deadline: 2024-02-22
           title: "HW03 -  Stacks & Queues"
+          url: "hws/HW03.html"
 
     -
       date: 2024-02-19
@@ -127,7 +128,7 @@
       assignments: 
         - 
           title: "Lab05 - Stacks"
-          #url: "labs/Lab05.html"
+          url: "labs/Lab05.html"
     -
       date: 2024-02-21
       title: Lecture 10 <br> Recursion & Binary Search
