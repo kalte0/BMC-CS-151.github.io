@@ -123,7 +123,7 @@
       readings:
         -
           title: "Chapter 7"
-              #slides: "slides/lecture09.pdf"
+          slides: "slides/lecture09.pdf"
       recording: ~
       assignments: 
         - 
