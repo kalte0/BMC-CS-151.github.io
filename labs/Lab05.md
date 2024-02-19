@@ -107,6 +107,8 @@ javac -cp junit-4.13.2.jar  TestPostfixEvaluator.java
 java -cp "./junit-4.13.2.jar:./hamcrest-core-1.3.jar:./" org.junit.runner.JUnitCore TestPostfixEvaluator
 ```
 
+You can alternatively use the `run_junit.sh` script I created in class: https://github.com/BMC-CS-151/class-examples-s24/blob/main/lec07/Stacks/run_junit.sh
+
 Test it using TestPostfixEvaluator.java. Make sure you understand how it works.
 
 Now, add 4 more tests to `TestPostfixEvaluator`. The tests should each combine multiple operators.

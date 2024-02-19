@@ -179,7 +179,11 @@ that test the methods in `MyListIterator`.
 In `ArrayList`, implement a `static` method
 called `removePositions` that takes in two `ArrayList`s, `L` and `P`, ArrayList
 and removes the elements in `L` that are in
-positions specified by `P`. 
+positions specified by `P`.
+
+Your method signature should be as follows:
+`public static <E> void removePositions(ArrayList<E> L, ArrayList<Integer> P)`
+
 
 Positions start with `0`. For instance, if `L` contains `[3, 10, 8, 5, 12, 67, 25, 22]`
 and `P` contains `[1, 3, 4, 6]`, the elements at index 1, 3, 4 and 6 in `L` should be removed, resulting
@@ -192,6 +196,7 @@ may assume `P` only contains valid indices of `L`, sorted in ascending order.
 In a new file called `TestRemovePositions`, create at least 10 unit tests
 that demonstrate that `removePositions` work currently. Make sure to include
 edge cases in your tests.
+
 
 # Summary
 
