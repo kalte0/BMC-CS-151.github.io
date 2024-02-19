@@ -4,7 +4,7 @@ title: "Binary Trees"
 type: Lab
 number: 07
 active_tab: lab
-release_date: 2023-10-25
+release_date: 2024-03-04
 
 ---
 
@@ -68,8 +68,8 @@ among themselves. After each problem, you will switch roles, the navigator will 
 
 ## Exercise 1 - LinkedBinaryTree
 
-Download the `LabBinaryTree` interface from 
-<a href="{{ site.url }}{{ site.baseurl }}/labs/lab07/LabBinaryTree.java">{{ site.url }}{{ site.baseurl }}/labs/lab07/LabBinaryTree.java</a>
+Download the `LabBinaryTree` interface from  
+`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/old-labs/lab07/LabBinaryTree.java`. 
 
 Implement a `LinkedBinaryTree` that implements `LabBinaryTree`.
 Start with the methods `size`, `isEmpty`, `insert`,
