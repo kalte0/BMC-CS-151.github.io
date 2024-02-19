@@ -69,7 +69,7 @@ among themselves. After each problem, you will switch roles, the navigator will 
 ## Exercise 1 - LinkedBinaryTree
 
 Download the `LabBinaryTree` interface from  
-`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/old-labs/lab07/LabBinaryTree.java`. 
+`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab07/LabBinaryTree.java`. 
 
 Implement a `LinkedBinaryTree` that implements `LabBinaryTree`.
 Start with the methods `size`, `isEmpty`, `insert`,
