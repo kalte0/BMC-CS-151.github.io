@@ -79,7 +79,9 @@ of the binary tree in in-order traversal order.
 `insert` allows you to add to the tree and `toString()` allows
 you to check the contents of your tree. 
 
-This lab does not necessarily require your binary tree to be a binary search tree, but it will be easier! It will also help you get a start on your homework. 
+Hint 1: This lab does not necessarily require your binary tree to be a binary search tree, but it will be easier! It will also help you get a start on your homework.      
+Hint 2: you may find it useful to use private helper methods that are called from the publicly defined method in the interface.
+
 
 Note that the interface requires that all listed methods be 
 implemented, but for now you can just implement method stubs for 
