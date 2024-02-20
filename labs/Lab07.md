@@ -95,8 +95,10 @@ Remember to thorougly test each method.
 
 ## Exercise 3 - `contains` and `height`
 Proceed with implementing and testing `contains` and `height`.
+The height of a tree with no root should be -1.
 Then, write JUnit tests in `TestLinkedBinaryTree.java` to 
 make sure they work correctly.
+
 
 # Summary
 
