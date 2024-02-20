@@ -75,9 +75,11 @@ Implement a `LinkedBinaryTree` that implements `LabBinaryTree`.
 Start with the methods `size`, `isEmpty`, `insert`,
 and `toString`, which creates a string representation
 of the tree by traversing through the nodes
-of the binary tree in in-order traversal order.
+of the binary tree in in-order traversal order. 
 `insert` allows you to add to the tree and `toString()` allows
-you to check the contents of your tree.
+you to check the contents of your tree. 
+
+This lab does not necessarily require your binary tree to be a binary search tree, but it will be easier! It will also help you get a start on your homework. 
 
 Note that the interface requires that all listed methods be 
 implemented, but for now you can just implement method stubs for 
