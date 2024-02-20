@@ -77,7 +77,8 @@ and `toString`, which creates a string representation
 of the tree by traversing through the nodes
 of the binary tree in in-order traversal order. 
 `insert` allows you to add to the tree and `toString()` allows
-you to check the contents of your tree. 
+you to check the contents of your tree.   
+`size` returns the number of nodes in the tree.
 
 Hint 1: This lab does not necessarily require your binary tree to be a binary search tree, but it will be easier! It will also help you get a start on your homework.      
 Hint 2: you may find it useful to use private helper methods that are called from the publicly defined method in the interface.
