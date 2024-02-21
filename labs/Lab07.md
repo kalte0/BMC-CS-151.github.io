@@ -57,16 +57,7 @@ The main goals for this lab are:
 1. Get practice with binary trees
 1. Get more practice using checkstyle, JUnit, and implementing an interface
 
-
-### Paired Programming rules
-This lab is a **paired programming assignment.** What exactly does that mean? 
-You will be working in pairs on the CS lab computers. Each pair will be working on one computer. One person will be the **driver** and the other person
- will be the **navigator**. Here is the rule: the **driver** controlls the lab computer, but the **driver** can only type what the **navigator** tells 
-them to type. For this to work well, each pair should be constantly talking 
-among themselves. After each problem, you will switch roles, the navigator will become the driver and the driver will become the navigator.
-
-
-## Exercise 1 - LinkedBinaryTree
+## Exercise 1 - LinkedBinaryTree (Binary Search Tree) 
 
 Download the `LabBinaryTree` interface from  
 `wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab07/LabBinaryTree.java`. 
@@ -78,11 +69,15 @@ of the tree by traversing through the nodes
 of the binary tree in in-order traversal order. 
 `insert` allows you to add to the tree and `toString()` allows
 you to check the contents of your tree.   
-`size` returns the number of nodes in the tree.
+`size` returns the number of nodes in the tree. 
 
-Hint 1: This lab does not necessarily require your binary tree to be a binary search tree, but it will be easier! It will also help you get a start on your homework.      
-Hint 2: you may find it useful to use private helper methods that are called from the publicly defined method in the interface.
+The tree should be a Binary Search Tree. It should maintain the BST properties we discussed in class:
+At each node with value k:  
+- Left subtree contains only nodes with value lesser than k   
+- Right subtree contains only nodes with value greater than k
+- Both subtrees are a binary search tree
 
+Hint: you may find it useful to use private helper methods that are called from the publicly defined method in the interface.
 
 Note that the interface requires that all listed methods be 
 implemented, but for now you can just implement method stubs for 
