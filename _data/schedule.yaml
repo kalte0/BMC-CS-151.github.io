@@ -131,8 +131,8 @@
           url: "labs/Lab05.html"
     -
       date: 2024-02-21
-      title: Lecture 10 <br> Recursion & Binary Search
-      #slides: "slides/lecture10.pdf"
+      title: Lecture 10 <br> Iterators, Recursion & Binary Search
+      slides: "slides/lecture10.pdf"
       readings:
         -
           title: "Chapter 5"
