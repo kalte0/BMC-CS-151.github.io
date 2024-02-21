@@ -102,6 +102,4 @@ In this lab we covered binary trees. You gained more experiece using
 checkstyle, unit testing, and implementing an interface.
 
 ### Signing out
-Before leaving, make sure your TA/instructor have signed you out of the lab. If you finish the lab early, you are free to go.
-If you do not finish the lab in time, you will need to go to office hours so
-that a TA can check your work.
+You do not need to be signed out by a TA for this lab. You will be submitting your code on Gradescope as part of HW05.
