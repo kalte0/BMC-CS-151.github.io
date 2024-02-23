@@ -4,7 +4,7 @@ title: "ArrayLists & Iterators"
 type: Lab
 number: 06
 active_tab: lab
-release_date: 2023-10-11
+release_date: 2024-02-22
 
 ---
 
