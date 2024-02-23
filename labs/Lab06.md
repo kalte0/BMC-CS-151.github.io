@@ -5,7 +5,7 @@ type: Lab
 number: 06
 active_tab: lab
 release_date: 2024-02-22
-
+due_date: 2024-02-29 23:59:00EDT
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -49,7 +49,7 @@ You can download the materials for this assignment here:
 
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
-Note, you will be submitting this lab to Gradescope. It will be due Friday 10/27
+Note, you will be submitting this lab to Gradescope. It will be due Thursday Feb 29. 
 
 ## Objectives:
 
