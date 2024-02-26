@@ -150,7 +150,7 @@
       readings:
         -
           title: "Chapter 8"
-              #slides: "slides/lecture11.pdf"
+          slides: "slides/lecture11.pdf"
       assignments: 
         - 
           title: "Lab06 - Iterators & ArrayList"
