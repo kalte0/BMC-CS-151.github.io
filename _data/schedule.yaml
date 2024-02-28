@@ -166,7 +166,7 @@
       readings:
         -
           title: "Chapter 8"
-      slides: ~
+      slides: "slides/lecture12.pdf"
       recording: ~
     -
       date: 2024-03-03
