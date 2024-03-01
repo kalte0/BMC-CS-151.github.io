@@ -4,7 +4,7 @@ title: "Binary Trees"
 type: Lab
 number: 07
 active_tab: lab
-release_date: 2024-03-04
+release_date: 2024-02-29
 
 ---
 
