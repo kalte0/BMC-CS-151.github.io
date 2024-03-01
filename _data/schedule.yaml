@@ -173,7 +173,8 @@
       assignments:
           -
            title: "HW05 - Binary Trees"
-           deadline: 2024-03-07
+           deadline: 2024-03-10
+           url: hws/HW05.html
       slides: ~
       recording: ~
 
