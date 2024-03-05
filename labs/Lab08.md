@@ -94,7 +94,7 @@ when you have an array-based binary tree. For `insert`, insert the node at the l
 2. `int left(int i);` - returns index of left child of parent stored at i
 3. `int right(int i);` returns index of right child of parent stored at i
 4. `void swap(int i, int j);` - swaps the two nodes stored at indices i and j
-5. `int containsIdx(E element);` - returns the index of the node containing element 
+5. `int containsIdx(E element);` - returns the index of the node containing element. If the element does not exist in the tree, return -1. 
 
 
 ###  Testing
