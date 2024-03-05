@@ -1,4 +1,4 @@
-CS113
+CS151
 =============================
 
 Introduction to Computer Science - CS151 (Bryn Mawr College Fall 2023)
