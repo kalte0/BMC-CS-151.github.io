@@ -87,7 +87,7 @@ before moving onto `insert` and
 `toStringBreadthFirst`, 
 which prints out the elements of
 the binary tree in breadth first traversal order (layer-by-layer). Breadth-first traversal should be straight forward
-when you have an array-based binary tree.
+when you have an array-based binary tree. For `insert`, insert the node at the left-most location of an incomplete level. 
 
 
 1. `int parent(int i);` - returns the index of the parent of child stored at i
