@@ -66,6 +66,8 @@ them to type. For this to work well, each pair should be constantly talking
 among themselves. After each problem, you will switch roles, the navigator will become the driver and the driver will become the navigator.
 
 
+For both exercises, you can assume a max array capacity of 100 that will not need to expand. 
+
 ## Exercise 1 - ArrayBinaryTree
 Download the `LabBinaryTree` interface from 
 `wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab08/LabBinaryTree.java`
@@ -81,13 +83,15 @@ to implement a binary tree, not a binary search tree (in the sense that each nod
 max two children, but no ordering of any kind is enforced, between the parent/children, or
 among the siblings). Think about what instance variables you will need.
 
+**Your ArrayBinaryTree should be complete and all operations should maintain completeness**
+
 Start with the methods `size` and `isEmpty`. 
 Implement the suggested helper methods below
 before moving onto `insert` and 
 `toStringBreadthFirst`, 
 which prints out the elements of
 the binary tree in breadth first traversal order (layer-by-layer). Breadth-first traversal should be straight forward
-when you have an array-based binary tree. For `insert`, insert the node at the left-most location of an incomplete level. 
+when you have an array-based binary tree. For `insert`, make sure your tree maintains completeness post insertion. 
 
 
 1. `int parent(int i);` - returns the index of the parent of child stored at i
@@ -96,6 +100,7 @@ when you have an array-based binary tree. For `insert`, insert the node at the l
 4. `void swap(int i, int j);` - swaps the two nodes stored at indices i and j
 5. `int containsIdx(E element);` - returns the index of the node containing element. If the element does not exist in the tree, return -1. 
 
+Now, implement `insert` and `toStringBreadthFirst`. 
 
 ###  Testing
 In a file called `TestArrayBinaryTree.java`,
@@ -110,10 +115,7 @@ Use the `toStringBreadthFirst()` method
 to print out the object. 
 
 ### Remove & getRootElement
-Proceed with implementing `getRootElement` and `remove`. Note that an artibrary
-binary tree is not guaranteed to be complete (the user may execute remove on any element
-at any time) and you need to decide how handle the case where positions may become null
-through out your tree. Hint: use `swap`
+Proceed with implementing `getRootElement` and `remove`. Ensure your `remove`  method maintains completeness of the binary tree. Hint: use `swap`
 
 Make sure to add JUnit tests that sufficiently test `getRootElement` and `remove`.
 
@@ -121,17 +123,14 @@ Make sure to add JUnit tests that sufficiently test `getRootElement` and `remove
 Download the `LabPriorityQueue.java` interface from 
 `wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab08/LabPriorityQueue.java`
 
-Implement `ArrayHeap` that extends `ArrayBinaryTree` and 
+Implement `ArrayHeap` as a **Min** Heap that extends `ArrayBinaryTree` and 
 implements `LabPriorityQueue`. Start with overriding `insert` so
-that elements can be inserted in heap order.
+that elements can be inserted in heap order. Next override `remove` so post removal, the properties of heap order are maintained. 
 
-Proceed with implementing peek().
+Proceed with implementing `peek` and `poll`
 
 Make sure to write JUnit tests that sufficiently test the new methods
 in `ArrayHeap`.
-
-This is not required for lab, but think about how remove should be overidden to maintain
-heap order, and how you will implement poll.
 
 # Summary
 
@@ -139,6 +138,8 @@ In this lab we covered array implementations of binary trees
 and binary heaps. 
 
 ### Signing out
-Before leaving, make sure your TA/instructor have signed you out of the lab. If you finish the lab early, you are free to go.
-If you do not finish the lab in time, you will need to go to office hours so
-that a TA can check your work.
+Upload the following files to Gradescope:
+1. `ArrayBinaryTree.java`
+2. `TestArrayBinaryTree.java`
+3. `ArrayHeap.java`
+4. `TestArrayHeap.java`
