@@ -234,7 +234,7 @@
 
     - 
       date: 2024-03-25
-      title: Lecture 16 <br> Maps
+      title: Lecture 16 <br> Quiz Review <br> Maps
           #slides: "slides/lecture17.pdf"
       recording: ~
       readings:
@@ -246,27 +246,21 @@
           #url: "labs/Lab08.html"
     - 
       date: 2024-03-27
-      title: Lecture 17 <br> Hash Tables
+      title: Lecture 17 <br> Quiz
           #slides: "slides/lecture18.pdf"
       recording: ~
       readings:
         -
           title: "Chapter 10 - Maps, Hash Tables, and Skip Lists"
 
-    -
-      date: 2024-03-31
-      assignments:
-          - 
-            title: "HW07 - Hash Tables"
-            deadline: 2024-04-04
     - 
       date: 2024-04-01
-      title: Lecture 18 <br> Merge Sort 
+      title: Lecture 18 <br> Maps <br> Hash Tables 
           #slides: "slides/lecture19.pdf"
       assignments: 
         - 
           #deadline: 2023-12-05
-          title: "Lab 09 - HashMaps"
+          title: "No Lab"
           #url: "labs/Lab09.html"
       readings:
         -
@@ -274,7 +268,7 @@
       recording: ~
     - 
       date: 2024-04-03
-      title: Lecture 19 <br> Quick Sort
+      title: Lecture 19 <br> Hash Tables <br> Quick Sort
           #slides: "slides/lecture20.pdf"
       readings:
         -
@@ -284,7 +278,8 @@
       date: 2024-04-07
       assignments: 
         -
-          title: "No Homework"
+          deadline: 2024-04-11
+          title: "HW07 - Hash Tables"
     - 
       date: 2024-04-08
       title: Lecture 20 <br> Quick Sort
@@ -295,7 +290,7 @@
           title: "Chapter 12 - Sorting & Selection"
       assignments: 
         -
-            title: "No Lab"
+            title: "Lab09 - HashMaps"
     - 
       date: 2024-04-10
       title: Lecture 21 <br> Sorted Maps, Tree Maps, Balanced Search Trees, AVL Trees
