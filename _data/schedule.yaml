@@ -231,6 +231,7 @@
           - 
             title: "HW06 - Heaps"
             deadline: 2024-03-28
+            url: hws/hw06.html
 
     - 
       date: 2024-03-25
@@ -243,7 +244,7 @@
       assignments: 
         - 
           title: "Lab08 - Array based Binary Trees & Heaps"
-          #url: "labs/Lab08.html"
+          url: "labs/Lab08.html"
     - 
       date: 2024-03-27
       title: Lecture 17 <br> Quiz
