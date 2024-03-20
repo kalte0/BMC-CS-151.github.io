@@ -205,7 +205,7 @@
   lectures:
     - 
       date: 2024-03-18
-      title: Lecture 14 <br> Comparables <br> Priority Queues
+      title: Lecture 14 <br> Heaps
       slides: "slides/lecture14.pdf"
       recording: ~
       assignments: 
@@ -217,8 +217,8 @@
             title: "Chapter 9 - Priority Queues"
     - 
       date: 2024-03-20
-      title: Lecture 15 <br> Heaps
-          #slides: "slides/lecture16.pdf"
+      title: Lecture 15 <br> Heaps <br> Priority Queues
+          slides: "slides/lecture15.pdf"
       recording: ~
       assignments: 
       readings:
