@@ -248,10 +248,7 @@
       title: Lecture 17 <br> Quiz
           #slides: "slides/lecture18.pdf"
       recording: ~
-      readings:
-        -
-          title: "Chapter 10 - Maps, Hash Tables, and Skip Lists"
-
+      readings: ~
     - 
       date: 2024-04-01
       title: Lecture 18 <br> Maps <br> Hash Tables 
