@@ -271,8 +271,8 @@
           #slides: "slides/lecture20.pdf"
       readings:
         -
-        title: "Chapter 10 - Maps, Hash Tables, and Skip Lists"
-        #title: "Chapter 12 - Sorting & Selection"
+            title: "Chapter 10 - Maps, Hash Tables, and Skip Lists"
+            #title: "Chapter 12 - Sorting & Selection"
       recording: ~
     - 
       date: 2024-04-07
