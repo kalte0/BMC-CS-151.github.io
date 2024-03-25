@@ -235,12 +235,10 @@
 
     - 
       date: 2024-03-25
-      title: Lecture 16 <br> Quiz Review <br> Maps
+      title: Lecture 16 <br> Quiz Review 
       slides: "slides/lecture16.pdf"
       recording: ~
-      readings:
-        -
-          title: "Chapter 10 - Maps, Hash Tables, and Skip Lists"
+      readings: ~
       assignments: 
         - 
           title: "Lab08 - Array based Binary Trees & Heaps"
@@ -265,15 +263,16 @@
           #url: "labs/Lab09.html"
       readings:
         -
-          title: "Chapter 12 - Sorting & Selection"
+          title: "Chapter 10 - Maps, Hash Tables, and Skip Lists"
       recording: ~
     - 
       date: 2024-04-03
-      title: Lecture 19 <br> Hash Tables <br> Quick Sort
+      title: Lecture 19 <br> Hash Tables 
           #slides: "slides/lecture20.pdf"
       readings:
         -
-          title: "Chapter 12 - Sorting & Selection"
+        title: "Chapter 10 - Maps, Hash Tables, and Skip Lists"
+        #title: "Chapter 12 - Sorting & Selection"
       recording: ~
     - 
       date: 2024-04-07
