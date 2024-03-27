@@ -77,7 +77,7 @@ linear-probing hash table.
 
 3. Download `dictionary.txt` and `search.txt`.
 
-## Exercise 1 - Inserting `dictionary.txt:
+## Exercise 1 - Inserting `dictionary.txt`:
 You will write a program that first creates a
 `ProbeHashMap`, and then insert words in 
 `dictionary.txt` one by one as keys into that hash
