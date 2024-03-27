@@ -64,7 +64,7 @@ among themselves. After each problem, you will switch roles, the navigator will 
 
 ### Files
 All files to download are available at:
-`{{ site.url }}{{ site.baseurl }}labs/lab09/`. Just append
+`{{ site.url }}{{ site.baseurl }}/labs/lab09/`. Just append
 the file name to that url.
 
 1. Download `Entry.java`, `Map.java`, 
