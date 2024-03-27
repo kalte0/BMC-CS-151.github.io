@@ -142,4 +142,4 @@ In this lab we covered hashmaps and got hands on experience with probing.
 ### Signing out
 Before leaving, make sure your TA/instructor have signed you out of the lab. If you finish the lab early, you are free to go.
 If you do not finish the lab in time, you will need to go to office hours so
-that a TA can check your work. This lab must be completed by Tuesday December 5th.
+that a TA can check your work. This lab must be completed by the HW7 Deadline 
