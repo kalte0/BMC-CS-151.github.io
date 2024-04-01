@@ -93,6 +93,7 @@ which prints out the elements of
 the binary tree in breadth first traversal order (layer-by-layer). Breadth-first traversal should be straight forward
 when you have an array-based binary tree. For `insert`, make sure your tree maintains completeness post insertion. 
 
+Create a default constructor which initializes your array and sets it to a sufficiently large capacity. 
 
 1. `int parent(int i);` - returns the index of the parent of child stored at i
 2. `int left(int i);` - returns index of left child of parent stored at i
@@ -101,6 +102,8 @@ when you have an array-based binary tree. For `insert`, make sure your tree main
 5. `int containsIdx(E element);` - returns the index of the node containing element. If the element does not exist in the tree, return -1. 
 
 Now, implement `insert` and `toStringBreadthFirst`. 
+
+
 
 ###  Testing
 In a file called `TestArrayBinaryTree.java`,
