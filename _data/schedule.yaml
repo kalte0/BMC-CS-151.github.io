@@ -252,7 +252,7 @@
     - 
       date: 2024-04-01
       title: Lecture 18 <br> Maps <br> Hash Tables 
-          #slides: "slides/lecture19.pdf"
+      slides: "slides/lecture18.pdf"
       assignments: 
         - 
           #deadline: 2023-12-05
@@ -264,7 +264,7 @@
       recording: ~
     - 
       date: 2024-04-03
-      title: Lecture 19 <br> Hash Tables 
+      title: <s> Lecture 19 - CANCELLED </s> <br> Hash Tables 
           #slides: "slides/lecture20.pdf"
       readings:
         -
