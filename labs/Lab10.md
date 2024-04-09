@@ -80,22 +80,25 @@ You might need additional helper methods (to compute
 `height`, for example).
 
 ### 3
+Add a method `public Node<E> getRoot()` to `AVLTree.java`
+
+### 4
 Override `toString` of the `Node` class to print the element followed by its 
 `height` in parenthesis.
 
-### 4
+### 5
 Modify/Override `toStringInOrder` so that it uses the above `toString` of `Node`
 and returns a traversal string listing the elements with `height` attached.
 
-### 5
+### 6
 Implement `rebalance` with associated helpers (rotateLeft, rotateRight, rotateLeftRight,
 rotateRightLeft) and call appropriately on insertion.
 
-### 6 - Testing
+### 7 - Testing
 Create an `AVLTree<String>` and insert the exercise example given in class, i.e. “M”, “N”,
 “O”, “L”, “K”, “Q”, “P”, “H”, “I”, “A”. Draw the expected tree by hand and assert that your code does indeed create the expected tree. 
 
-### 7 
+### 8 
 Override `toString` of `AVLTree` to print out the in-order traversal, with the height of each
 node attached. For example, the tree above should return the following string:
 
