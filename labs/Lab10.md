@@ -69,7 +69,7 @@ First, copy over your `LinkedBinaryTree.java` and the `BinaryTree.java` interfac
 
 ### 1 
 Add a `parent` reference and a `height` instance variable to the `Node` class of 
-`LinkedBinaryTree`. Also add public methods `Node<E> getParent()`, `int getHeight()`, `Node<E> getLeft()`, and `Node<E> getRight()` for testing. 
+`LinkedBinaryTree`. Also add public methods `Node<E> getParent()`, `int getHeight()`, `E getData()`, `Node<E> getLeft()`, and `Node<E> getRight()` for testing. 
 Inheritance of inner/nested classes of Java could be weird so it’s easier to just make changes
 to the `Node` in `LinkedBinaryTree` instead. 
 
