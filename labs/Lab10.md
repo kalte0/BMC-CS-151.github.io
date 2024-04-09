@@ -66,7 +66,7 @@ among themselves. After each problem, you will switch roles, the navigator will 
 In this assignment you will write a AVLTree (`AVLTree.java`) that extends your LinkedBinaryTree from HW05.
 Your AVLTree should be generic over type `E`. 
 First, copy over your `LinkedBinaryTree.java` and the `BinaryTree.java` interface from HW05. 
-Then, modify the `Node` class in `LinkedBinaryTree` to have `public` access.
+Then, modify the `Node` class in `LinkedBinaryTree` to have `public` access. 
 
 ### 1 
 Add a `parent` reference and a `height` instance variable to the `Node` class of 
@@ -81,7 +81,10 @@ You might need additional helper methods (to compute
 `height`, for example).
 
 ### 3
-Add a method `public Node getRoot()` to `AVLTree.java`
+Add the following methods / constructors to `AVLTree.java`   
+`public Node getRoot()`   
+`public AVLTree()`  
+`public AVLTree(E data)`  
 
 ### 4
 Override `toString` of the `Node` class to print the element followed by its 
