@@ -96,7 +96,7 @@ and returns a traversal string listing the elements with `height` attached.
 
 ### 6
 Implement `public void rebalance()` with associated helpers (`public Node rotateLeft(Node n)`, `public Node rotateRight(Node n)`, `public Node rotateLeftRight(Node n)`,
-`public Node rotateRightLeft(Node n)`) and call appropriately on insertion.
+`public Node rotateRightLeft(Node n)`) and call appropriately on insertion. `rotateLeftRight` and `rotateRightLeft` should take the _subtree_ root that we want to rotate over first. 
 
 ### 7 - Testing
 Create an `AVLTree<String>` and insert the exercise example given in class, i.e. “M”, “N”,
