@@ -81,7 +81,7 @@ You might need additional helper methods (to compute
 `height`, for example).
 
 ### 3
-Add a method `public Node<E> getRoot()` to `AVLTree.java`
+Add a method `public Node getRoot()` to `AVLTree.java`
 
 ### 4
 Override `toString` of the `Node` class to print the element followed by its 
