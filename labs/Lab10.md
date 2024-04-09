@@ -95,8 +95,8 @@ Modify/Override `toStringInOrder` so that it uses the above `toString` of `Node`
 and returns a traversal string listing the elements with `height` attached.
 
 ### 6
-Implement `rebalance` with associated helpers (rotateLeft, rotateRight, rotateLeftRight,
-rotateRightLeft) and call appropriately on insertion.
+Implement `public void rebalance()` with associated helpers (`public Node rotateLeft(Node n)`, `public Node rotateRight(Node n)`, `public Node rotateLeftRight(Node n)`,
+`public Node rotateRightLeft(Node n)`) and call appropriately on insertion.
 
 ### 7 - Testing
 Create an `AVLTree<String>` and insert the exercise example given in class, i.e. “M”, “N”,
