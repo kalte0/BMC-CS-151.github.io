@@ -108,6 +108,6 @@ A(1) H(2) I(3) K(1) L(2) M(1) N(4) O(1) P(2) Q(1)
 In this lab we covered AVL Trees.
 
 ### Signing out
-Before leaving, make sure your TA/instructor have signed you out of the lab. If you finish the lab early, you are free to go.
-If you do not finish the lab in time, you will need to go to office hours so
-that a TA can check your work. This lab must be completed by Thursday December 14th.
+This lab will be autograded. Submit the following files to gradescope:
+1. `LinkedBinaryTree.java`
+2. `AVLTree.java`
