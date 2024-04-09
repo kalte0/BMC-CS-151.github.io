@@ -64,13 +64,14 @@ among themselves. After each problem, you will switch roles, the navigator will 
 
 ## Exercise
 In this assignment you will write a AVLTree (`AVLTree.java`) that extends your LinkedBinaryTree from HW05.
-First, copy over your `LinkedBinaryTree.java` and the `BinaryTree.java` interface from HW05.
+Your AVLTree should be generic over type `E`. 
+First, copy over your `LinkedBinaryTree.java` and the `BinaryTree.java` interface from HW05. 
 
 ### 1 
 Add a `parent` reference and a `height` instance variable to the `Node` class of 
-`LinkedBinaryTree`.
+`LinkedBinaryTree`. Also add public methods `Node<E> getParent()` and `int getHeight()` for testing. 
 Inheritance of inner/nested classes of Java could be weird so it’s easier to just make changes
-to the `Node` in `LinkedBinaryTree` instead.
+to the `Node` in `LinkedBinaryTree` instead. 
 
 ### 2
 Modify/override `LinkedBinaryTree` and/or `AVLTree` so that `parent` and `height`
