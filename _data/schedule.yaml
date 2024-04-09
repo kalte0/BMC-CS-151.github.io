@@ -279,8 +279,8 @@
           title: "HW07 - Hash Tables"
     - 
       date: 2024-04-08
-      title: Lecture 20 <br> Quick Sort
-          #slides: "slides/lecture21.pdf"
+      title: Lecture 20 <br> Hash Tables
+      slides: "slides/lecture20.pdf"
       recording: ~
       readings:
         -
@@ -288,9 +288,10 @@
       assignments: 
         -
             title: "Lab09 - HashMaps"
+            url: "labs/Lab09.html"
     - 
       date: 2024-04-10
-      title: Lecture 21 <br> Sorted Maps, Tree Maps, Balanced Search Trees, AVL Trees
+      title: Lecture 21 <br> Merge Sort <br> Quick Sort
       slides: ~
       recording: ~
       readings:
@@ -306,8 +307,8 @@
             deadline: 2024-04-18
     - 
       date: 2024-04-15
-      title: Lecture 22 <br> Balanced Trees  
-          #slides: "slides/lecture23.pdf"
+      title: Lecture 22 <br> Sorted Maps, Tree Maps, Balanced Search Trees, AVL Trees
+      #slides: "slides/lecture23.pdf"
       recording: ~
       readings:
         -
