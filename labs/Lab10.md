@@ -92,9 +92,7 @@ rotateRightLeft) and call appropriately on insertion.
 
 ### 6 - Testing
 Create an `AVLTree<String>` and insert the exercise example given in class, i.e. “M”, “N”,
-“O”, “L”, “K”, “Q”, “P”, “H”, “I”, “A” and the final balanced tree should look like this:
-
-![](lab10.png)
+“O”, “L”, “K”, “Q”, “P”, “H”, “I”, “A”. Draw the expected tree by hand and assert that your code does indeed create the expected tree. 
 
 ### 7 
 Override `toString` of `AVLTree` to print out the in-order traversal, with the height of each
