@@ -74,6 +74,8 @@ Add a `parent` reference and a `height` instance variable to the `Node` class of
 Inheritance of inner/nested classes of Java could be weird so it’s easier to just make changes
 to the `Node` in `LinkedBinaryTree` instead. 
 
+`getHeight()` should return the height of the subtree rooted at that node. A leaf node should have a height of 1. 
+
 ### 2
 Modify/override `LinkedBinaryTree` and/or `AVLTree` so that `parent` and `height`
 are set correctly on `insertion` and `deletion`. 
