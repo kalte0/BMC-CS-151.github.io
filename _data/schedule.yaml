@@ -303,7 +303,7 @@
     - 
       date: 2024-04-15
       title: Lecture 22 <br> Merge Sort, Quick Sort <br> Balanced Search Trees, AVL Trees
-      #slides: "slides/lecture23.pdf"
+      slides: "slides/lecture23.pdf"
       recording: ~
       readings:
         -
@@ -311,6 +311,7 @@
       assignments: 
         -
           title: "Lab10 - AVL Trees"
+          url: "labs/Lab10.html"
     - 
       date: 2024-04-17
       title: Lecture 23 <br> Balanced Trees
