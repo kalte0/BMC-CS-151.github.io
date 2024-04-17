@@ -315,7 +315,7 @@
     - 
       date: 2024-04-17
       title: Lecture 23 <br> Balanced Trees
-          #slides: "slides/lecture24.pdf"
+      slides: "slides/lecture23.pdf"
       readings: 
         -
           title: "Chapter 11.2 - 11.6"
