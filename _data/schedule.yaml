@@ -330,7 +330,7 @@
     - 
       date: 2024-04-22
       title: Lecture 24 <br> Splay Trees <br> Graphs 
-          #slides: "slides/lecture25.pdf"
+      slides: "slides/lecture24.pdf"
       readings:
         -
           title: "Chapter 10.5"
