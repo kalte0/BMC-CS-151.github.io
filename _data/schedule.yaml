@@ -329,7 +329,7 @@
           url: "hws/HW08.html"
     - 
       date: 2024-04-22
-      title: Lecture 24 <br> Sets <br> Graphs 
+      title: Lecture 24 <br> Splay Trees <br> Graphs 
           #slides: "slides/lecture25.pdf"
       readings:
         -
@@ -345,7 +345,7 @@
               #_url: "labs/Lab00.html"
     - 
       date: 2024-04-24
-      title: Lecture 25 <br> Sets <br> Graphs
+      title: Lecture 25 <br> Graphs
       readings:
         -
           title: "Chapter 14.1 - Chapter 14.3"
