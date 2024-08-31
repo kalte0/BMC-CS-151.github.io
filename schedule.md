@@ -39,7 +39,7 @@ Please complete <a href="{{ site.url }}{{ site.baseurl }}/labs/Lab00.html">Lab00
         <th>Date</th> 
         <th>Topic</th>
         <!--<th>Recordings</th>-->
-        <th>Reading</th>
+        <!--<th>Reading</th>-->
         <th>Assignment</th>
       </tr>
     </thead>
@@ -97,27 +97,6 @@ Please complete <a href="{{ site.url }}{{ site.baseurl }}/labs/Lab00.html">Lab00
             {% endif %}
   	    {% endif %}
 
-        </td>
-        <td>	
-          {% if lecture.readings %} 	
-            {% for reading in lecture.readings %}	
-            {% if reading.url %}	
-                {% if reading.optional %}<b>Optional:</b> {% endif %}	
-                {% if reading.authors %}	
-                {{ reading.authors }}, 	
-                {% endif %}	
-                <a href="{{ reading.url }}">{{ reading.title }}</a> 	
-              <br />	
-            {% else %}	
-                {% if reading.optional %}<b>Optional</b> {% endif %}	
-                {% if reading.authors %}	
-                {{ reading.authors }}, 	
-                {% endif %}	
-               {{ reading.title }} 	
-              <br />	
-            {% endif %}	
-            {% endfor %}	
-          {% endif %}	
         </td>
         <td>
           {% if lecture.assignments %} 

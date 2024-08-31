@@ -4,7 +4,7 @@ title: "Exceptions & I/O"
 type: Lab
 number: 01
 active_tab: lab
-release_date: 2023-09-05
+release_date: 2024-09-04
 
 ---
 
@@ -67,8 +67,8 @@ You will be working in pairs on the CS lab computers. Each pair will be working 
 them to type. For this to work well, each pair should be constantly talking 
 among themselves. After each problem, you will switch roles, the navigator will become the driver and the driver will become the navigator.
 
-### CS113 Spring '23 Students
-For students who took CS113 in Spring '23, you have already completed a version of this lab.
+### CS113 Spring '23 & Fall '24 Students
+For students who took CS113 in Spring '23 and Fall '24, you have already completed a version of this lab.
 However, you must still complete this lab as a refresher.
 
 ## Understanding Errors: Syntax & Runtime Errors
