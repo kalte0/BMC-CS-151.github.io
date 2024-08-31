@@ -65,8 +65,8 @@ Discussion Forum
 : [Piazza](https://piazza.com/class/lr8bl2y6e4f5ql/)
 
 Time and place
-: Spring 2024, MW 1-2:30pm, Location: Park 245
-: Lab M: 2:40-4:00pm, Location: Park 231
+: Fall 2024, MW 1:10-2:30pm, Location: Park 159
+: Lab M: 2:40-4:00pm, Location: Park 230
 
 Prerequisites
 : One of the following courses is required with a grade of 2.0 or better (or permission of
@@ -80,16 +80,18 @@ Course Readings
 : Some lectures will have accompanying optional reading related to the lecture's topic
 
 Grading
-* Homeworks: 35%
-* Labs: 5%
-* Midterms: 20%
-* Final: 35% 
+* Homeworks: 55%
+* Labs: 10%
+* Midterm: 10%
+* Final: 20% 
 * Participation: 5%
 
 
+<!---
 Late day policy
 : As a general rule, no late homework will be accepted.
 <br>
 See the <a href="{{ site.url }}{{ site.baseurl }}/policies.html">Policies</a> for more details.
+-->
 
 <!--#### Acknowledgments-->
