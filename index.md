@@ -76,8 +76,8 @@ the instructor):
 3. CS H105
 
 Course Readings
-: Each lecture has an accompanying chapter/section of the [textbook](https://www.wiley.com/en-us/Data+Structures+and+Algorithms+in+Java%2C+6th+Edition-p-9781118771334). We will be using the 6th edition of Data Structures and Algorithms by Goodrich, Tamassia and Goldwasser as the required text. 
-: Some lectures will have accompanying optional reading related to the lecture's topic
+: Each lecture has an optional accompanying chapter/section of the [textbook](https://www.wiley.com/en-us/Data+Structures+and+Algorithms+in+Java%2C+6th+Edition-p-9781118771334). We will be using the 6th edition of Data Structures and Algorithms by Goodrich, Tamassia and Goldwasser. 
+: 
 
 Grading
 * Homeworks: 55%
