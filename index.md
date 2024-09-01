@@ -62,7 +62,7 @@ Code Samples From Lecture
 : [Github](https://github.com/BMC-CS-151/class-examples-s24)
 
 Discussion Forum
-: [Piazza](https://piazza.com/class/lr8bl2y6e4f5ql/)
+: [Piazza](https://piazza.com/class/m0jmvenkle36yh)
 
 Time and place
 : Fall 2024, MW 1:10-2:30pm, Location: Park 159
