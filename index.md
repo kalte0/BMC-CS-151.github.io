@@ -80,10 +80,10 @@ Course Readings
 : 
 
 Grading
-* Homeworks: 55%
-* Labs: 10%
-* Midterm: 10%
-* Final: 20% 
+* Homeworks: 50%
+* Labs: 5%
+* Midterm: 15%
+* Final: 25% 
 * Participation: 5%
 
 
