@@ -15,6 +15,8 @@ You can <a href="https://brynmawr.hosted.panopto.com/Panopto/Pages/Sessions/List
 <br><br>
 You can <a href="https://brynmawr.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=ff498393-6d3d-45d5-a5e5-b0ff014a35bd">>watch recordings of the Spring 2024 lecture videos online</a>.
 <br><br>
+You can <a href="https://brynmawr.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=46258ebd-f926-4015-95a7-b1e001443a8c">>watch recordings of the Fall 2024 lecture videos online</a>.
+<br><br>
 
 Recordings are saved on Panopto and require a BMC/HC login.
 </div>
