@@ -59,7 +59,7 @@ Website
 : [https://bmc-cs-151.github.io/](https://bmc-cs-151.github.io/)
 
 Code Samples From Lecture
-: [Github](https://github.com/BMC-CS-151/class-examples-s24)
+: [Github](https://github.com/BMC-CS-151/class-examples-f24)
 
 Discussion Forum
 : [Piazza](https://piazza.com/class/m0jmvenkle36yh)
