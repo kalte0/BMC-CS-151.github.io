@@ -126,7 +126,7 @@ Design a `Mammal` class with the following:
 - a value constructor that initializes the two variables
 - getters of the two instance variables
 - a `void` method named `speak()` that prints the object's `sound`
-- a `boolean` method named `layEggs()`
+- a `boolean` method named `laysEggs()`
 - a `boolean` method named `livesInWater()`
 
 #### 1.2 Dolphin class
