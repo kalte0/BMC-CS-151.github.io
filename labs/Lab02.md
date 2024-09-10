@@ -57,9 +57,7 @@ The main goals for this lab are:
 1. Review inheritance
 1. Implement your first data structure - a self expanding array
 
-You will need to have a TA check off on all your exercises.
-If you do not complete the lab during the lab session, you
-must have a TA check off all your exercises during office hours.
+This lab will be submitted and autograded on Gradescope.
 
 > Notes: in this lab you are not allowed to include any `import` statements.
 
@@ -72,10 +70,8 @@ among themselves. After each problem, you will switch roles, the navigator will 
 
 ## Exercise 1: Inheritance
 
-Design all the necessary classes in order to make the following driver program
-work properly (we have broken down the step below). You ***must not*** and ***can not***
-change the driver code. You must store the driver program in a file called 
-`InheritanceDriverLab02.java`
+You will design all the necessary classes in order to make the following driver program
+work properly and produce the given expected output (we have broken down the step below). 
 
 
 ``` java
@@ -106,8 +102,8 @@ public static void main(String[] args){
     }
 }
 ```
-For example, this is a sample output that is acceptable:
 
+Will produce the following output:
 ```
 Generally, a Dolphin can be found in water, it can not lay eggs, and is often overheard saying 'ak, ak, ak, ak'
 Generally, a Platypus can be found on land, it can lay eggs, and is often overheard saying 'errrr'
@@ -163,7 +159,7 @@ Some classes may need more than one constructor.
 </details>
 
 
-Before moving on in this lab, run the Driver program and make sure
+Before moving on in this lab, submit your code to gradescope to make sure
 the output is correct.
 
 
@@ -199,7 +195,7 @@ to test your `ExpandableArray`.
 You can download it by running:
 
 ```
-wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab02/ExpandableArrayTests.java ExpandableArrayTests.java
+wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab02/ExpandableArrayTests.java 
 ```
 
 The tests will not compile until you've written completed the lab.
@@ -264,7 +260,7 @@ shift elements up or down to maintain our rule of always storing an element whos
 
 For the insert method which takes an index to insert at, ensure that the index is valid.
 If the user specifies an invalid index, throw an `IndexOutOfBoundsException` error.
-An index is invalid if does not correspond to an element in the array. If our underlying array is of size 20, but only 4 of them are filled, any index > 3 is invalid.
+An index is invalid if does not correspond to an element in the array. If our underlying array is of size 20, but only 4 of them are filled, any index > 4 is invalid.
  
 Your error should include an informative message. 
 Similar to how the follow code 
@@ -316,6 +312,8 @@ java -ea ExpandableArrayTests
 This will ensure that all tests actually run. We are using `assert`
 to test the `ExpandableArray`.
 
+Once your tests pass, submit your code to Gradescope.
+
 
 ## Exercise 3: Mammals again
 
@@ -330,7 +328,4 @@ In todays lab we covered Inheritance and creating our first
 data structure.
 
 ### Signing out
-Before leaving, make sure your TA/instructor have signed you out of the lab. If you finish the lab early, you are free to go.
-If you do not finish the lab in time, you will need to go to office hours so
-that a TA can check your work.
-
+Before leaving, make sure you submit to Gradescope.
