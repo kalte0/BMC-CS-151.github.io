@@ -23,7 +23,7 @@
           deadline: "2024-09-12"
     - 
       date: 2024-09-09
-      title: Lecture 2 <br> Inheritence <br> OOP <br> Arrays
+      title: Lecture 2 <br> Inheritence <br> OOP 
       slides: "slides/lecture02.pdf"
       recording: ~
       #readings:
@@ -31,8 +31,8 @@
       #    title: "Chapter 2, Chapter 3.1, Chapter 7.2"
     - 
       date: 2024-09-11
-      title: Lecture 3 <br> Generics
-      #slides: "slides/lecture03.pdf"
+      title: Lecture 3 <br> Arrays <br> Generics
+      slides: "slides/lecture03.pdf"
       recording: ~
       #readings:
       #  -
