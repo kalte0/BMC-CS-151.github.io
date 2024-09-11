@@ -173,10 +173,10 @@
           -
             title: "Lab07 - Binary Trees"
             #url: "labs/Lab07.html"
-            deadline: 2024-10-31
+            deadline: 2024-11-01
           -
             title: "HW05 - Binary Trees"
-            deadline: 2024-10-31
+            deadline: 2024-11-01
 
     - 
       date: 2024-10-28
@@ -217,10 +217,10 @@
         - 
           title: "Lab08 - Array based Binary Trees & Heaps"
           #url: "labs/Lab08.html"
-          deadline: 2024-11-14
+          deadline: 2024-11-15
         - 
           title: "HW06 - Heaps"
-          deadline: 2024-11-14
+          deadline: 2024-11-15
           #url: "hws/HW06.html"
     - 
       date: 2024-11-11
@@ -254,10 +254,10 @@
       assignments: 
         -
             title: "Lab09 - HashMaps"
-            deadline: 2024-01-01
+            deadline: 2024-04-22
             #url: "labs/Lab09.html"
         -
-            deadline: 2024-04-21
+            deadline: 2024-04-22
             title: "HW07 - Hash Tables"
             #url: "hws/HW07.html"
     - 
@@ -282,7 +282,7 @@
         -
           title: "Lab10 - AVL Trees"
           #url: "labs/Lab10.html"
-          deadline: 2024-12-05
+          deadline: 2024-12-06
         -
           title: "No Homework"
     - 
@@ -307,7 +307,7 @@
               #_url: "labs/Lab00.html"
         -
           title: "HW08 - AVL Trees"
-          deadline: 2024-12-12
+          deadline: 2024-12-13
           #url: "hws/HW08.html"
     - 
       date: 2024-12-09
