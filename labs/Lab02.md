@@ -274,9 +274,10 @@ would throw the following error with the following message:
 ```
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 2
 ```
+Both `insert` methods should be named `insert` and return `void` type.
 
 ### 2.5 Accessing
-Write a method that will extract
+Write a method named `get` that will extract
 an item from the `ExpandableArray`. The user should be able to specify
 an index and the `ExpandableArray` will return the item at that index.
 
@@ -297,6 +298,8 @@ in the `ExpandableArray`. Each item should be seperated by a comma and space.
 
 ### 2.8 set()
 Write a `set` method which takes an element and an index, and sets the value accordingly.
+
+Again, if the user specifies an index that is greater than the number of elements in the `ExpandableArray`, throw an `IndexOutOfBoundsException`. 
 
 ### 2.9 size()
 Write a `size` method which returns the number of elements in the array.
