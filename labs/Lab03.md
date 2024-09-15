@@ -59,9 +59,7 @@ The main goals for this lab are:
 
 1. Practice with linked lists
 
-You will need to have a TA check off on all your exercises.
-If you do not complete the lab during the lab session, you
-must have a TA check off all your exercises during office hours.
+You will submit to Gradescope for credit.
 
 > Notes: in this lab you are not allowed to include any `import` statements.
 
@@ -85,7 +83,7 @@ to test your code.
 You can download it by running:
 
 ```
-wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab03/Lab03Tests.java Lab03Tests.java
+wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab03/Lab03Tests.java 
 ```
 Compiling this file will result in errors since we haven't implemented necessary components yet. As you code, frequently compile. In general, this is a good debugging strategy.
 
@@ -95,6 +93,8 @@ Design a class `City` that represents a city. It should have instance variables 
 following information. Include appropriate constructor, getters, setters and `toString`.
 1. name of the city
 2. population
+
+Take a look at the given tests for required method signatures. 
 
 ## Exercise 2: Singly Linked List
 Implement a singly linked list that stores a list of `City`s. 
@@ -118,7 +118,7 @@ Call the class `CitySLL`.
 > of the first node. In this LinkedList, you are allowed to use private instance variables
 > that can help you make these methods faster.
 
-You will be using and adding more functionality to your `ExpandableArray` in Homework02.
+<!--You will be using and adding more functionality to your `ExpandableArray` in Homework02.-->
 
 ## Exercise 3: Doubly Linked List
 Implement a Doubly linked list that stores a list of `City`s. 
@@ -159,8 +159,6 @@ have a lot more than 56 tests!
 In todays lab we covered Singly and Doubly LinkedLists.
 
 ### Signing out
-Before leaving, make sure your TA/instructor have signed you out of the lab. If you finish the lab early, you are free to go.
-If you do not finish the lab in time, you will need to go to office hours so
-that a TA can check your work.
+Once you've finished the lab, remember to submit to Gradescope for credit. The autograder will run the given tests and grade your code.
 
 
