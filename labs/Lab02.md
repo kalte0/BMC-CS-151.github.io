@@ -59,7 +59,7 @@ The main goals for this lab are:
 
 This lab will be submitted and autograded on Gradescope.
 
-> Notes: in this lab you are not allowed to include any `import` statements.
+> Notes: in this lab you are not allowed to include any `import` statements other than `import java.lang.IndexOutOfBoundsException`
 
 ### Paired Programming rules
 This lab is a **paired programming assignment.** What exactly does that mean? 
