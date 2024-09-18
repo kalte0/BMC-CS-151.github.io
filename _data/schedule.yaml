@@ -62,12 +62,12 @@
       #readings:
       #  -
       #    title: "Chapter 3"
-      #slides: "slides/lecture05.pdf"
+      slides: "slides/lecture05.pdf"
       recording: ~
       assignments: 
         - 
           title: "Lab03 -  LinkedLists"
-          #url: "labs/Lab03.html"
+          url: "labs/Lab03.html"
           deadline: "2024-09-27"
         - 
           title: "HW02 -  LinkedLists"
